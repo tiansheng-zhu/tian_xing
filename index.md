@@ -38,7 +38,7 @@
 
 {%
   include button.html
-  link="projects"
+  link="team"
   text="查看研究团队介绍"
   icon="fa-solid fa-arrow-right"
   flip=true
@@ -50,7 +50,7 @@
 {%
   include feature.html
   image="images/photo.jpg"
-  link="projects"
+  link="team"
   title="研究团队"
   flip=true
   style="bare"
@@ -63,7 +63,7 @@
 
 {%
   include button.html
-  link="team"
+  link="blog"
   text="查看实验室新闻"
   icon="fa-solid fa-arrow-right"
   flip=true
@@ -75,7 +75,7 @@
 {%
   include feature.html
   image="images/photo.jpg"
-  link="team"
+  link="blog"
   title="新闻"
   text=text
 %}
