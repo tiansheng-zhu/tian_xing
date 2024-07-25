@@ -1,120 +1,247 @@
 # DO NOT EDIT, GENERATED AUTOMATICALLY
 
-# added by 2250694
-
-- id: doi:10.5194/gmd-15-4105-2022
-  title: Simulation, precursor analysis and targeted observation sensitive area identification for two types of ENSO using ENSO-MC v1.0
+- id: doi:10.1093/nar/gkad1082
+  title: "The Monarch Initiative in 2024: an analytic platform integrating phenotypes,\
+    \ genes\_and diseases across species"
   authors:
-    - Bin Mu
-    - Yuehan Cui
-    - Shijin Yuan
-    - Bo Qin
-  publisher: European Geosciences Union
-  date: '2022-05-25'
-  link: https://gmd.copernicus.org/articles/15/4105/2022/
-  image: https://gmd.copernicus.org/articles/15/4105/2022/gmd-15-4105-2022-avatar-web.png
+  - Tim E Putman
+  - Kevin Schaper
+  - Nicolas Matentzoglu
+  - "Vincent\_P Rubinetti"
+  - "Faisal\_S Alquaddoomi"
+  - Corey Cox
+  - J Harry Caufield
+  - Glass Elsarboukh
+  - Sarah Gehrke
+  - Harshad Hegde
+  - "Justin\_T Reese"
+  - Ian Braun
+  - "Richard\_M Bruskiewich"
+  - Luca Cappelletti
+  - Seth Carbon
+  - "Anita\_R Caron"
+  - "Lauren\_E Chan"
+  - "Christopher\_G Chute"
+  - "Katherina\_G Cortes"
+  - "Vin\xEDcius De\_Souza"
+  - Tommaso Fontana
+  - "Nomi\_L Harris"
+  - "Emily\_L Hartley"
+  - Eric Hurwitz
+  - "Julius\_O B Jacobsen"
+  - Madan Krishnamurthy
+  - "Bryan\_J Laraway"
+  - "James\_A McLaughlin"
+  - "Julie\_A McMurry"
+  - "Sierra\_A T Moxon"
+  - "Kathleen\_R Mullen"
+  - "Shawn\_T O\u2019Neil"
+  - "Kent\_A Shefchek"
+  - Ray Stefancsik
+  - Sabrina Toro
+  - "Nicole\_A Vasilevsky"
+  - "Ramona\_L Walls"
+  - "Patricia\_L Whetzel"
+  - David Osumi-Sutherland
+  - Damian Smedley
+  - "Peter\_N Robinson"
+  - "Christopher\_J Mungall"
+  - "Melissa\_A Haendel"
+  - "Monica\_C Munoz-Torres"
+  publisher: Nucleic Acids Research
+  date: '2023-11-24'
+  link: https://doi.org/gs6kmr
+  orcid: 0000-0002-4655-3773
+  plugin: orcid.py
+  file: orcid.yaml
+- id: doi:10.1101/2023.10.11.560955
+  title: Integration of 168,000 samples reveals global patterns of the human gut microbiome
+  authors:
+  - Richard J. Abdill
+  - Samantha P. Graham
+  - Vincent Rubinetti
+  - Frank W. Albert
+  - Casey S. Greene
+  - Sean Davis
+  - Ran Blekhman
+  publisher: Cold Spring Harbor Laboratory
+  date: '2023-10-11'
+  link: https://doi.org/gsvf5z
+  orcid: 0000-0002-4655-3773
+  plugin: orcid.py
+  file: orcid.yaml
+- id: doi:10.1093/nar/gkad289
+  title: 'MyGeneset.info: an interactive and programmatic platform for community-curated
+    and user-created collections of genes'
+  authors:
+  - Ricardo Avila
+  - Vincent Rubinetti
+  - Xinghua Zhou
+  - Dongbo Hu
+  - Zhongchao Qian
+  - Marco Alvarado Cano
+  - Everaldo Rodolpho
+  - Ginger Tsueng
+  - Casey Greene
+  - Chunlei Wu
+  publisher: Nucleic Acids Research
+  date: '2023-04-18'
+  link: https://doi.org/gr5hb5
+  orcid: 0000-0002-4655-3773
+  plugin: orcid.py
+  file: orcid.yaml
+- id: doi:10.1101/2023.01.05.522941
+  title: Hetnet connectivity search provides rapid insights into how two biomedical
+    entities are related
+  authors:
+  - Daniel S. Himmelstein
+  - Michael Zietz
+  - Vincent Rubinetti
+  - Kyle Kloster
+  - Benjamin J. Heil
+  - Faisal Alquaddoomi
+  - Dongbo Hu
+  - David N. Nicholson
+  - Yun Hao
+  - Blair D. Sullivan
+  - Michael W. Nagle
+  - Casey S. Greene
+  publisher: Cold Spring Harbor Laboratory
+  date: '2023-01-07'
+  link: https://doi.org/grmcb9
+  orcid: 0000-0002-4655-3773
+  plugin: orcid.py
+  file: orcid.yaml
+- id: doi:10.1093/gigascience/giad047
+  title: Hetnet connectivity search provides rapid insights into how biomedical entities
+    are related
+  authors:
+  - Daniel S Himmelstein
+  - Michael Zietz
+  - Vincent Rubinetti
+  - Kyle Kloster
+  - Benjamin J Heil
+  - Faisal Alquaddoomi
+  - Dongbo Hu
+  - David N Nicholson
+  - Yun Hao
+  - Blair D Sullivan
+  - Michael W Nagle
+  - Casey S Greene
+  publisher: GigaScience
+  date: '2022-12-28'
+  link: https://doi.org/gsd85n
+  orcid: 0000-0002-4655-3773
+  plugin: orcid.py
+  file: orcid.yaml
+- id: doi:10.1101/2022.02.18.461833
+  title: 'MolEvolvR: A web-app for characterizing proteins using molecular evolution
+    and phylogeny'
+  authors:
+  - Jacob D Krol
+  - Joseph T Burke
+  - Samuel Z Chen
+  - Lo M Sosinski
+  - Faisal S Alquaddoomi
+  - Evan P Brenner
+  - Ethan P Wolfe
+  - Vincent P Rubinetti
+  - Shaddai Amolitos
+  - Kellen M Reason
+  - John B Johnston
+  - Janani Ravi
+  publisher: Cold Spring Harbor Laboratory
+  date: '2022-02-22'
+  link: https://doi.org/gstx7j
+  orcid: 0000-0002-4655-3773
+  plugin: orcid.py
+  file: orcid.yaml
+- id: doi:10.1186/s13059-020-02021-3
+  title: Compressing gene expression data using multiple latent space dimensionalities
+    learns complementary biological representations
+  authors:
+  - Gregory P. Way
+  - Michael Zietz
+  - Vincent Rubinetti
+  - Daniel S. Himmelstein
+  - Casey S. Greene
+  publisher: Genome Biology
+  date: '2020-05-11'
+  link: https://doi.org/gg2mjh
+  orcid: 0000-0002-4655-3773
+  plugin: orcid.py
+  file: orcid.yaml
+- id: doi:10.1371/journal.pcbi.1007128
+  title: Open collaborative writing with Manubot
+  authors:
+  - Daniel S. Himmelstein
+  - Vincent Rubinetti
+  - David R. Slochower
+  - Dongbo Hu
+  - Venkat S. Malladi
+  - Casey S. Greene
+  - Anthony Gitter
+  publisher: PLOS Computational Biology
+  date: '2020-12-04'
+  link: https://doi.org/c7np
+  orcid: 0000-0002-4655-3773
   plugin: sources.py
   file: sources.yaml
-
-- id: doi:10.5194/gmd-14-6977-2021
-  title: >
-    ENSO-ASC 1.0.0: ENSO deep learning forecast model with a multivariate air–sea coupler
+  type: paper
+  description: Lorem ipsum _dolor_ **sit amet**, consectetur adipiscing elit, sed
+    do eiusmod tempor incididunt ut labore et dolore magna aliqua.
+  image: https://journals.plos.org/ploscompbiol/article/figure/image?size=inline&id=info:doi/10.1371/journal.pcbi.1007128.g001&rev=2
+  buttons:
+  - type: manubot
+    link: https://greenelab.github.io/meta-review/
+  - type: source
+    text: Manuscript Source
+    link: https://github.com/greenelab/meta-review
+  - type: website
+    link: http://manubot.org/
+  tags:
+  - open science
+  - collaboration
+  repo: greenelab/meta-review
+- id: doi:10.1101/573782
+  title: Sequential compression of gene expression across dimensionalities and methods
+    reveals no single best method or dimensionality
   authors:
-    - Bin Mu
-    - Bo Qin
-    - Shijin Yuan
-  publisher: European Geosciences Union
-  date: '2021-11-17'
-  link: https://gmd.copernicus.org/articles/14/6977/2021/
-  image: https://gmd.copernicus.org/articles/14/6977/2021/gmd-14-6977-2021-avatar-thumb150.png
+  - Gregory P. Way
+  - Michael Zietz
+  - Vincent Rubinetti
+  - Daniel S. Himmelstein
+  - Casey S. Greene
+  publisher: Cold Spring Harbor Laboratory
+  date: '2019-03-11'
+  link: https://doi.org/gfxjxf
+  orcid: 0000-0002-4655-3773
+  plugin: orcid.py
+  file: orcid.yaml
+- id: doi:10.1016/j.csbj.2020.05.017
+  title: Constructing knowledge graphs and their biomedical applications
+  authors:
+  - David N. Nicholson
+  - Casey S. Greene
+  publisher: Computational and Structural Biotechnology Journal
+  date: '2020-01-01'
+  link: https://doi.org/gg7m48
+  image: https://ars.els-cdn.com/content/image/1-s2.0-S2001037020302804-gr1.jpg
   plugin: sources.py
   file: sources.yaml
-  
-- id: doi:10.1007/s00500-021-06639-8
-  title: Feature extraction-based intelligent algorithm framework with neural network for solving conditional nonlinear optimal perturbation
+- id: doi:10.7554/eLife.32822
+  title: Sci-Hub provides access to nearly all scholarly literature
   authors:
-    - Shijin Yuan
-    - Huazhen Zhang
-    - Yaxuan Liu
-    - Bin Mu
-  publisher: Springer Link
-  date: '2022-01-29'
-  link: https://link.springer.com/article/10.1007/s00500-021-06639-8
-  image: https://media.springernature.com/lw685/springer-static/image/art%3A10.1007%2Fs00500-021-06639-8/MediaObjects/500_2021_6639_Fig1_HTML.png?as=webp
-  plugin: sources.py
-  file: sources.yaml
-  
-- id: doi:10.1155/2022/6141966
-  title: The NAO Variability Prediction and Forecasting with Multiple Time Scales Driven by ENSO Using Machine Learning Approaches
-  authors:
-    - Bin Mu
-    - Jing Li
-    - Shijin Yuan
-    - Xiaodan Luo
-  publisher: Wiley
-  date: '2022-04-15'
-  link: https://onlinelibrary.wiley.com/doi/10.1155/2022/6141966
-  image: https://onlinelibrary.wiley.com/cms/asset/614882d6-a3c1-4c8b-834a-5003f3faba0f/cone6141966-fig-0004-m.jpg
-  plugin: sources.py
-  file: sources.yaml
-
-- id: doi:10.5194/npg-2020-27
-  title: Optimal Precursors Identification for North Atlantic Oscillation using CESM and CNOP Method
-  authors:
-    - Bin Mu
-    - Jing Li
-    - Shijin Yuan
-    - Xiaodan Luo
-    - Guokun Dai
-  publisher: European Geosciences Union
-  date: '2020-07-01'
-  link: https://npg.copernicus.org/preprints/npg-2020-27/
-  image: https://onlinelibrary.wiley.com/cms/asset/782d5b32-7595-46c5-9419-ee3c23cef6b3/scpr3215039-fig-0002-m.png
-  plugin: sources.py
-  file: sources.yaml
-
-- id: doi:10.46267/j.1006-8775.2022.010
-  title: >
-    Ensemble Forecast for Tropical Cyclone Based on CNOP-P Method: A Case Study of WRF Model and Two Typhoons
-  authors:
-    - Yuan Shijin
-    - Shi Bo
-    - Zhao Zijun
-    - Mu Bin
-    - Zhou Feifan
-    - Duan Wansuo
-  publisher: Journal of Tropical Meteorology
-  date: '2022-06-10'
-  link: https://jtm.itmm.org.cn/en/article/doi/10.46267/j.1006-8775.2022.010
-  image: https://jtm.itmm.org.cn/fileRDQXXB_EN/journal/article/rdqxxben/2022/2/jotm-28-2-121-2.jpg
-  plugin: sources.py
-  file: sources.yaml
-
-- id: doi:10.5194/gmd-14-6977-2021
-  title: >
-    ENSO-ASC 1.0.0: ENSO Deep Learning Forecast Model with a Multivariate Air-Sea Coupler
-  authors:
-    - Bin Mu
-    - Bo Qin
-    - Shijin Yuan
-  publisher: European Geosciences Union
-  date: '2021-11-17'
-  link: https://gmd.copernicus.org/articles/14/6977/2021/
-  image: https://gmd.copernicus.org/articles/14/6977/2021/gmd-14-6977-2021-avatar-thumb150.png
-  plugin: sources.py
-  file: sources.yaml
-
-- id: doi:10.3390/a14030083
-  title: Typhoon Intensity Forecasting Based on LSTM Using the Rolling Forecast Method
-  authors:
-    - Shijin Yuan
-    - Cheng Wang
-    - Bin Mu
-    - Feifan Zhou
-    - Wansuo Duan
-  publisher: Multidisciplinary Digital Publishing Institute
-  date: '2021-03-04'
-  link: https://www.mdpi.com/1999-4893/14/3/83
-  image: https://www.mdpi.com/algorithms/algorithms-14-00083/article_deploy/html/images/algorithms-14-00083-g010-550.jpg
+  - Daniel S Himmelstein
+  - Ariel Rodriguez Romero
+  - Jacob G Levernier
+  - Thomas Anthony Munro
+  - Stephen Reid McLaughlin
+  - Bastian Greshake Tzovaras
+  - Casey S Greene
+  publisher: eLife
+  date: '2018-03-01'
+  link: https://doi.org/ckcj
+  image: https://iiif.elifesciences.org/lax:32822%2Felife-32822-fig8-v3.tif/full/863,/0/default.webp
   plugin: sources.py
   file: sources.yaml
