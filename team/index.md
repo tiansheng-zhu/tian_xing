@@ -3,26 +3,40 @@ title: Team
 nav:
   order: 3
   tooltip: About our team
+redirect_from:
+
 ---
 
 # {% include icon.html icon="fa-solid fa-users" %}Team
 
-Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor
-incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis
-nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.
+实验室简介（随便写的）：我们实验室包含导师、不同研究方向的博士生和研究生。
 
 {% include section.html %}
 
-{% include list.html data="members" component="portrait" filters="role: pi" %}
-{% include list.html data="members" component="portrait" filters="role: ^(?!pi$)" %}
+## 导师
+
+袁老师和穆老师
+
+{% include list.html data="members" component="portrait" filters="role: postdoc, group: " %}
 
 {% include section.html background="images/background.jpg" dark=true %}
 
-Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor
-incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis
-nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.
+这里可以写点什么...
 
 {% include section.html %}
+## 博士生和研究生
+
+实验室有许多研究方向的博士生和研究生
+
+### 研究方向1
+{% include list.html data="members" component="portrait" filters="role: phd, group: Dir1" style="small" %}
+{% include list.html data="members" component="portrait" filters="role: postgrad, group: Dir1" style="small" %}
+### 研究方向2
+{% include list.html data="members" component="portrait" filters="role: phd, group: Dir2" style="small" %}
+{% include list.html data="members" component="portrait" filters="role: postgrad, group: Dir2" style="small" %}
+### 研究方向3
+{% include list.html data="members" component="portrait" filters="role: phd, group: Dir3" style="small" %}
+{% include list.html data="members" component="portrait" filters="role: postgrad, group: Dir3" style="small" %}
 
 {% capture content %}
 
