@@ -1,5 +1,5 @@
 # site properties and page defaults
-title: 天行 test 2250694
+title: 天行
 subtitle: 
 description: 
 header: images/background.jpg
@@ -34,6 +34,11 @@ defaults:
       type: "posts"
     values:
       layout: post
+  # markdown files in /_news
+  - scope:
+      type: "news"
+    values:
+      layout: news
 
 collections:
   # generate page for each member
@@ -41,6 +46,9 @@ collections:
     output: true
   # generate page for each post
   posts:
+    output: true
+  # generate page for each news
+  news:
     output: true
 
 # jekyll plugins
