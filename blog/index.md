@@ -1,8 +1,8 @@
 ---
-title: Blog
+title: 新闻
 nav:
-  order: 4
-  tooltip: Musings and miscellany
+  order: 3
+  tooltip: 实验室参与的活动
 ---
 
 # {% include icon.html icon="fa-solid fa-feather-pointed" %}Blog
