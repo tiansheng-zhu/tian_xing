@@ -7,7 +7,7 @@ nav:
 
 # {% include icon.html icon="fa-solid fa-microscope" %}研究方向
 
-> TODO: 研究方向介绍111
+> TODO: 研究方向介绍
 
 {% include section.html %}
 
