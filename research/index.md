@@ -7,14 +7,15 @@ nav:
 
 # {% include icon.html icon="fa-solid fa-microscope" %}Research
 
-Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.
-Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.
+> TODO: 研究方向介绍
 
 {% include section.html %}
 
 ## Highlighted
 
-{% include citation.html lookup="Open collaborative writing with Manubot" style="rich" %}
+{% include citation.html lookup="Simulation, precursor analysis and targeted observation sensitive area identification for two types of ENSO using ENSO-MC v1.0" style="rich" %}
+
+{% include citation.html lookup="ENSO-ASC 1.0.0: ENSO deep learning forecast model with a multivariate air–sea coupler" style="rich" %}
 
 {% include section.html %}
 
