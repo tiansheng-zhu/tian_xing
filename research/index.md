@@ -5,13 +5,13 @@ nav:
   tooltip: 实验室相关成果介绍
 ---
 
-# {% include icon.html icon="fa-solid fa-microscope" %}Research
+# {% include icon.html icon="fa-solid fa-microscope" %}研究方向
 
 > TODO: 研究方向介绍
 
 {% include section.html %}
 
-## Highlighted
+## 主要研究成果
 
 {% include citation.html lookup="Simulation, precursor analysis and targeted observation sensitive area identification for two types of ENSO using ENSO-MC v1.0" style="rich" %}
 
@@ -19,7 +19,7 @@ nav:
 
 {% include section.html %}
 
-## All
+## 全部
 
 {% include search-box.html %}
 
