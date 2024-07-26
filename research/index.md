@@ -1,8 +1,8 @@
 ---
-title: Research
+title: 相关成果
 nav:
   order: 1
-  tooltip: Published works
+  tooltip: 实验室相关成果介绍
 ---
 
 # {% include icon.html icon="fa-solid fa-microscope" %}Research
