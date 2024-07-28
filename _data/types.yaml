@@ -27,6 +27,10 @@ mascot:
   description: Mascot
 
 # newly added
+tutor:
+  icon: fa-solid fa-glasses
+  description: Tutor
+  
 postgrad:
   icon: fa-solid fa-user-graduate
   description: Postgraduate Student
