@@ -1,8 +1,9 @@
 ---
 title: 研究团队
 nav:
-  order: 2
-  tooltip: 研究团队介绍
+
+  order: 3
+  tooltip: About our team
 redirect_from:
 
 ---
@@ -17,8 +18,7 @@ redirect_from:
 
 袁老师和穆老师
 
-{% include list.html data="members" component="portrait" filters="role: postdoc, group: " %}
-
+{% include list.html data="members" component="portrait" filters="role: tutor, group: " %}
 {% include section.html background="images/background.jpg" dark=true %}
 
 这里可以写点什么...
@@ -37,13 +37,3 @@ redirect_from:
 ### 研究方向3
 {% include list.html data="members" component="portrait" filters="role: phd, group: Dir3" style="small" %}
 {% include list.html data="members" component="portrait" filters="role: postgrad, group: Dir3" style="small" %}
-
-{% capture content %}
-
-{% include figure.html image="images/photo.jpg" %}
-{% include figure.html image="images/photo.jpg" %}
-{% include figure.html image="images/photo.jpg" %}
-
-{% endcapture %}
-
-{% include grid.html style="square" content=content %}
