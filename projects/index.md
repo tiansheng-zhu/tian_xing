@@ -1,9 +1,11 @@
+/*
 ---
 title: Projects
 nav:
-  order: 2
+  order: 4
   tooltip: Software, datasets, and more
 ---
+*/
 
 # {% include icon.html icon="fa-solid fa-wrench" %}Projects
 

@@ -27,6 +27,7 @@ mascot:
   description: Mascot
 
 # newly added
+
 tutor:
   icon: fa-solid fa-glasses
   description: Tutor

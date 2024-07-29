@@ -1,6 +1,7 @@
 ---
-title: Team
+title: 研究团队
 nav:
+
   order: 3
   tooltip: About our team
 redirect_from:
@@ -18,7 +19,6 @@ redirect_from:
 袁老师和穆老师
 
 {% include list.html data="members" component="portrait" filters="role: tutor, group: " %}
-
 {% include section.html background="images/background.jpg" dark=true %}
 
 这里可以写点什么...
