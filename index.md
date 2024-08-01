@@ -19,7 +19,7 @@
   text="查看实验室已有成果"
   icon="fa-solid fa-arrow-right"
   flip=true
-  style="bare"
+  style="button"
 %}
 
 {% endcapture %}
@@ -42,7 +42,7 @@
   text="查看研究团队介绍"
   icon="fa-solid fa-arrow-right"
   flip=true
-  style="bare"
+  style="button"
 %}
 
 {% endcapture %}
@@ -67,7 +67,7 @@
   text="查看实验室最新新闻"
   icon="fa-solid fa-arrow-right"
   flip=true
-  style="bare"
+  style="button"
 %}
 
 {% endcapture %}
