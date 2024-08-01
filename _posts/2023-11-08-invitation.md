@@ -1,9 +1,6 @@
 ---
 title: 2023 年气候预测与气候应用技术论坛邀请函
-author: 国家气候中心
-tag: 
-  - 邀请函
-  - 气候
+image: images/photo4.png
 ---
 
 尊敬的袁时金教授:您好  
@@ -19,9 +16,10 @@ tag:
 主题5:气候影响评价与应用  
 - **三、回执填写**  
 您可扫描下方二维码进行注册(无需缴纳注册费)方便我方会议人员为您提前预定房问及做其他会议安排，会议期问食宿统一安排，住宿费自理。  
-![alt text](../images/QRcode.png)  
+{% include figure.html image="images/QRcode.png" width="500px"%}
+
 联系人:王荣，国家气候中心 010-68400072&emsp;&emsp;15718895711 Email: wangrong@cma.gov.cn  
 &emsp;&emsp;希望您能够拨冗出席此次论坛，初步日程请见附件。  
-&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;国家气候中心  
-&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;2023年11月8日
+&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;国家气候中心  
+&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;2023年11月8日
 

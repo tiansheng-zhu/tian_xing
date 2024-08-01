@@ -1,8 +1,8 @@
 ---
-title: Team
+title: 研究团队
 nav:
-  order: 3
-  tooltip: About our team
+  order: 2
+  tooltip: 研究团队介绍
 redirect_from:
 
 ---
