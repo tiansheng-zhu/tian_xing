@@ -1,3 +1,4 @@
+---
 title: 新闻
 nav:
   order: 3
