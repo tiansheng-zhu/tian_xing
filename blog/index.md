@@ -5,7 +5,7 @@ nav:
   tooltip: 实验室活动和新闻展示
 ---
 
-# {% include icon.html icon="fa-solid fa-feather-pointed" %}News
+# {% include icon.html icon="fa-solid fa-feather-pointed" %}新闻
 
 
 
