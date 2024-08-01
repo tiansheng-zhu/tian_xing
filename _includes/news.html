@@ -1,0 +1,77 @@
+{% assign emptyarray = "" | split: "," %}
+{% assign data = site.data[include.data]
+  | default: site[include.data]
+  | default: emptyarray
+  | data_filter: include.filters
+%}
+
+{% assign sorted_data = data | sort: "date" | reverse %}
+
+<style>
+  .news-container {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr); 
+    gap: 16px; 
+  }
+  .news-item {
+    border: 1px solid #ddd; 
+    padding: 16px; 
+    box-shadow: 0 2px 5px rgba(0,0,0,0.1); 
+    border-radius: 8px; 
+  }
+  .year-heading {
+    grid-column: span 3; 
+    font-size: 24px;
+    margin-top: 32px;
+  } 
+  
+</style>
+
+<div class="news-container">
+  {% assign current_year = "" %}
+  {% for d in sorted_data %}
+    {% assign post_year = d.date | date: "%Y" %}
+    {% if post_year != current_year %}
+      {% assign current_year = post_year %}
+      <div class="year-heading">{{ current_year }}</div>
+    {% endif %}
+    <div class="news-item">
+      {% assign style = d.style | default: include.style %}
+      {% assign excerpt = d.content | truncate: 50, "..." %}
+
+      {%
+        include {{ include.component | append: ".html" }}
+        affiliation=d.affiliation
+        author=d.author
+        authors=d.authors
+        buttons=d.buttons
+        caption=d.caption
+        content=d.content
+        date=d.date
+        description=d.description
+        excerpt=excerpt
+        height=d.height
+        icon=d.icon
+        id=d.id
+        image=d.image
+        last_modified_at=d.last_modified_at
+        link=d.link
+        lookup=d.lookup
+        name=d.name
+        publisher=d.publisher
+        repo=d.repo
+        role=d.role
+        slug=d.slug
+        style=style
+        subtitle=d.subtitle
+        tags=d.tags
+        text=d.text
+        title=d.title
+        tooltip=d.tooltip
+        type=d.type
+        url=d.url
+        width=d.width
+      %}
+    </div>
+  {% endfor %}
+</div>
