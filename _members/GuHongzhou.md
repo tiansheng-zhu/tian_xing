@@ -1,5 +1,5 @@
 ---
-name: 顾洪洲
+name: 顾洪州
 image: images/GuHongzhou.jpg
 description: 硕士生
 role: master
