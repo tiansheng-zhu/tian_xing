@@ -1,3 +1,4 @@
+---
 title: Blog
 nav:
   order: 4
