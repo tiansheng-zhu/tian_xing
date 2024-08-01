@@ -1,12 +1,13 @@
-title: Blog
+---
+title: 新闻
 nav:
-  order: 4
-  tooltip: Musings and miscellany
+  order: 3
+  tooltip: 实验室参与的活动
 ---
 
 # {% include icon.html icon="fa-solid fa-feather-pointed" %}News
 
-
+Here are the latest news about our labs.
 
 {% include section.html %}
 
@@ -16,6 +17,4 @@ nav:
 
 {% include search-info.html %}
 
-{% include news.html data="posts" component="post-excerpt" %}
-
-{% include foot.html %}
+{% include list.html data="posts" component="post-excerpt" %}
