@@ -48,6 +48,12 @@ jobs:
         run: |
           python -m pip install --upgrade --requirement ./_cite/requirements.txt
 
+      - name: Clean previous citations
+        run: rm -rf _data/citations.yaml
+
+      - name: Download CSL schema
+        run: wget https://github.com/citation-style-language/schema/raw/v1.0.2/schemas/input/csl-data.json -O csl-data.json
+        
       # for debugging
       - if: runner.debug == '1'
         uses: mxschmitt/action-tmate@v3
