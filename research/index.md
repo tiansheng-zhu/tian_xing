@@ -1,5 +1,5 @@
 ---
-title: 相关成果
+title: 研究成果
 nav:
   order: 1
   tooltip: 实验室相关成果介绍
