@@ -13,9 +13,10 @@ nav:
 
 ## 主要研究成果
 
+<div id="main-achievements">
 {% include citation.html lookup="Simulation, precursor analysis and targeted observation sensitive area identification for two types of ENSO using ENSO-MC v1.0" style="rich" %}
-
 {% include citation.html lookup="Optimal Precursors Identification for North Atlantic Oscillation using CESM and CNOP Method" style="rich" %}
+</div>
 
 {% include section.html %}
 
@@ -23,11 +24,14 @@ nav:
 
 {% include search-box.html %}
 
-
 {% assign all_tags = "" %}
+
 {% for citation in site.data.citations %}
+
   {% assign all_tags = all_tags | append: citation.tags | append: "," %}
+
 {% endfor %}
+
 {% assign tags_array = all_tags | split: "," | uniq | sort %}
 
 {% include tags.html tags=tags_array %}

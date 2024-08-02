@@ -24,7 +24,7 @@
         href="javascript:void(0);"
         class="tag"
         data-tag="{{ tag }}"
-        onclick="filterByTag('{{ tag }}')"
+        onclick="filterByTag('{{ tag | escape }}')"
         data-tooltip="Show items with the tag &quot;{{ tag }}&quot;"
       >
         {{ tag }}
