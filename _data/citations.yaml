@@ -3,7 +3,7 @@
 - id: doi:10.5194/gmd-15-4105-2022
   title: Simulation, precursor analysis and targeted observation sensitive area identification
     for two types of ENSO using ENSO-MC v1.0
-  tags: ENSO, precursor
+  tags: ENSO, Precursor Analysis
   authors:
   - Bin Mu
   - Yuehan Cui
@@ -20,7 +20,7 @@
     Coupler
 
     '
-  tags: ENSO, deep learning
+  tags: ENSO, deep learning, Forecast Model
   authors:
   - Bin Mu
   - Bo Qin
@@ -49,7 +49,7 @@
 - id: doi:10.1155/2022/6141966
   title: The NAO Variability Prediction and Forecasting with Multiple Time Scales
     Driven by ENSO Using Machine Learning Approaches
-  tags: ENSO, typhoon
+  tags: ENSO, typhoon, Machine Learning
   authors:
   - Bin Mu
   - Jing Li
@@ -64,7 +64,7 @@
 - id: doi:10.5194/npg-2020-27
   title: Optimal Precursors Identification for North Atlantic Oscillation using CESM
     and CNOP Method
-  tags: ENSO, precursor
+  tags: ENSO, CNOP
   authors:
   - Bin Mu
   - Jing Li
@@ -82,7 +82,7 @@
     of WRF Model and Two Typhoons
 
     '
-  tags: ENSO, typhoon
+  tags: ENSO, typhoon, CNOP
   authors:
   - Yuan Shijin
   - Shi Bo
@@ -98,7 +98,7 @@
   file: sources.yaml
 - id: doi:10.3390/a14030083
   title: Typhoon Intensity Forecasting Based on LSTM Using the Rolling Forecast Method
-  tags: typhoon, LSTM
+  tags: typhoon, Intensity Forecasting
   authors:
   - Shijin Yuan
   - Cheng Wang

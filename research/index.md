@@ -32,6 +32,8 @@ nav:
 
 {% include tags.html tags=tags_array %}
 
-{% include search-info.html %}
+<div id="citations-list">
+  {% include list.html data="citations" component="citation" style="rich" %}
+</div>
 
-{% include list.html data="citations" component="citation" style="rich" %}
+{% include search-info.html %}
