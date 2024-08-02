@@ -1,11 +1,13 @@
+console.log("search.js loaded");
+
 /*
-  filters elements on page based on url or search box.
+  Filters elements on page based on url or search box.
   syntax: term1 term2 "full phrase 1" "full phrase 2" "tag: tag 1"
   match if: all terms AND at least one phrase AND at least one tag
 */
 {
   // elements to filter
-  const elementSelector = ".card, .citation, .post-excerpt";
+  const elementSelector = "#citations-list .citation-container";
   // search box element
   const searchBoxSelector = ".search-box";
   // results info box element
@@ -79,7 +81,6 @@
     // results info
     let x = 0;
     let n = elements.length;
-    let tags = parts.tags;
 
     // filter elements
     for (const element of elements) {
@@ -89,7 +90,7 @@
       } else element.style.display = "none";
     }
 
-    return [x, n, tags];
+    return [x, n];
   };
 
   // highlight search terms
@@ -130,23 +131,16 @@
   const updateInfoBox = (query, x, n) => {
     const boxes = document.querySelectorAll(infoBoxSelector);
 
-    if (query.trim()) {
-      // show all info boxes
-      boxes.forEach((info) => (info.style.display = ""));
+    // info template
+    let info = "";
+    info += `Showing ${x.toLocaleString()} of ${n.toLocaleString()} results<br>`;
+    info += "<a href='./'>Clear search</a>";
 
-      // info template
-      let info = "";
-      info += `Showing ${x.toLocaleString()} of ${n.toLocaleString()} results<br>`;
-      info += "<a href='./'>Clear search</a>";
-
-      // set info HTML string
-      boxes.forEach((el) => (el.innerHTML = info));
-    }
-    // if nothing searched
-    else {
-      // hide all info boxes
-      boxes.forEach((info) => (info.style.display = "none"));
-    }
+    // set info HTML string
+    boxes.forEach((el) => {
+      el.style.display = ""; // 确保总是显示
+      el.innerHTML = info;
+    });
   };
 
   // update tags based on query
