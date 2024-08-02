@@ -1,6 +1,7 @@
 # added by 2250694
 - id: doi:10.5194/gmd-15-4105-2022
   title: Simulation, precursor analysis and targeted observation sensitive area identification for two types of ENSO using ENSO-MC v1.0
+  tags: ENSO, precursor
   authors:
     - Bin Mu
     - Yuehan Cui
@@ -14,6 +15,7 @@
 - id: doi:10.5194/gmd-14-6977-2021
   title: >
     ENSO-ASC 1.0.0: ENSO deep learning forecast model with a multivariate air–sea coupler
+  tags: ENSO, deep learning
   authors:
     - Bin Mu
     - Bo Qin
@@ -25,6 +27,7 @@
   
 - id: doi:10.1007/s00500-021-06639-8
   title: Feature extraction-based intelligent algorithm framework with neural network for solving conditional nonlinear optimal perturbation
+  tags: ENSO, intelligent algorithm
   authors:
     - Shijin Yuan
     - Huazhen Zhang
@@ -37,6 +40,7 @@
   
 - id: doi:10.1155/2022/6141966
   title: The NAO Variability Prediction and Forecasting with Multiple Time Scales Driven by ENSO Using Machine Learning Approaches
+  tags: ENSO, typhoon
   authors:
     - Bin Mu
     - Jing Li
@@ -49,6 +53,7 @@
 
 - id: doi:10.5194/npg-2020-27
   title: Optimal Precursors Identification for North Atlantic Oscillation using CESM and CNOP Method
+  tags: ENSO, precursor
   authors:
     - Bin Mu
     - Jing Li
@@ -63,6 +68,7 @@
 - id: doi:10.46267/j.1006-8775.2022.010
   title: >
     Ensemble Forecast for Tropical Cyclone Based on CNOP-P Method: A Case Study of WRF Model and Two Typhoons
+  tags: ENSO, typhoon
   authors:
     - Yuan Shijin
     - Shi Bo
@@ -78,6 +84,7 @@
 - id: doi:10.5194/gmd-14-6977-2021
   title: >
     ENSO-ASC 1.0.0: ENSO Deep Learning Forecast Model with a Multivariate Air-Sea Coupler
+  tags: ENSO, deep learning
   authors:
     - Bin Mu
     - Bo Qin
@@ -89,6 +96,7 @@
 
 - id: doi:10.3390/a14030083
   title: Typhoon Intensity Forecasting Based on LSTM Using the Rolling Forecast Method
+  tags: typhoon, LSTM
   authors:
     - Shijin Yuan
     - Cheng Wang
