@@ -5,6 +5,9 @@
   | data_filter: include.filters
 %}
 
+{% assign hideyear = include.hideyear | default: "false" %}
+
+
 {% assign years = data
   | group_by_exp: "d", "d.date | date: '%Y'"
   | sort: "name"
@@ -14,8 +17,10 @@
 {% for year in years %}
   {% assign data = year.items %}
 
-  {% if years.size > 1 %}
-    {{--}}<h3 id="{{ year.name }}">{{ year.name }}</h3>
+  {% if years.size > 1 and hideyear == "false" %}
+    {{--}}<h3>{{ year.name }}</h3>
+    {% assign data = data | sort: "date" | reverse %}
+  {% else if years.size > 1 and hideyear == "true" %}
     {% assign data = data | sort: "date" | reverse %}
   {% endif %}
 
@@ -24,7 +29,6 @@
 
     {%
       include {{ include.component | append: ".html" }}
-      affiliation=d.affiliation
       author=d.author
       authors=d.authors
       buttons=d.buttons
@@ -44,6 +48,11 @@
       publisher=d.publisher
       repo=d.repo
       role=d.role
+      external-page-only = d.external-page-only
+      brief-desc = d.brief-desc
+      affiliations = d.affiliations
+      brief-position = d.brief-position
+      position=d.position
       slug=d.slug
       style=style
       subtitle=d.subtitle

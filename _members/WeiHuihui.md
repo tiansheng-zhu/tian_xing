@@ -6,13 +6,14 @@ role: phd
 group: 
     - precipitation
     - heat_wave
+brief-position: 降水，高温热浪
+brief-desc: 博士生
 ---
 
 <span style="font-size: 25px;">研究现象:
 * 降水
 * 高温热浪
 
-<span style="font-size: 25px;">研究现象:
-* 厄尔尼诺-南方涛动(ENSO)研究方法: 
-* AI参数化方案
-* 智能WRF数值模式
+<span style="font-size: 25px;">研究方法: </span>
+
+AI参数化方案、智能WRF数值模式

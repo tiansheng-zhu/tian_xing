@@ -29,33 +29,32 @@ redirect_from:
 
 实验室的博士生和硕士生研究了许多气候现象，包括台风、降水等。
 
-### 台风
-{% include list.html data="members" component="portrait" filters="role: phd, group: typhoon" style="small" %}
-{% include list.html data="members" component="portrait" filters="role: master, group: typhoon" style="small" %}
-### 厄尔尼诺-南方涛动(ENSO)
-{% include list.html data="members" component="portrait" filters="role: phd, group: ENSO" style="small" %}
-{% include list.html data="members" component="portrait" filters="role: master, group: ENSO" style="small" %}
-### 北大西洋涛动(NAO)
-{% include list.html data="members" component="portrait" filters="role: phd, group: NAO" style="small" %}
-{% include list.html data="members" component="portrait" filters="role: master, group: NAO" style="small" %}
-### 降水
-{% include list.html data="members" component="portrait" filters="role: phd, group: precipitation" style="small" %}
-{% include list.html data="members" component="portrait" filters="role: master, group: precipitation" style="small" %}
-### 北极海冰
-{% include list.html data="members" component="portrait" filters="role: phd, group: arctic_sea_ice" style="small" %}
-{% include list.html data="members" component="portrait" filters="role: master, group: arctic_sea_ice" style="small" %}
-### 三维温盐
-{% include list.html data="members" component="portrait" filters="role: phd, group: three-dimensional_temperature_and_salinity" style="small" %}
-{% include list.html data="members" component="portrait" filters="role: master, group: three-dimensional_temperature_and_salinity" style="small" %}
-### 雾
-{% include list.html data="members" component="portrait" filters="role: phd, group: fog" style="small" %}
-{% include list.html data="members" component="portrait" filters="role: master, group: fog" style="small" %}
-### 黑潮
-{% include list.html data="members" component="portrait" filters="role: phd, group: kuroshio" style="small" %}
-{% include list.html data="members" component="portrait" filters="role: master, group: kuroshio" style="small" %}
-### 其他
-{% include list.html data="members" component="portrait" filters="role: phd, group: others" style="small" %}
-{% include list.html data="members" component="portrait" filters="role: master, group: others" style="small" %}
+{% include list.html data="members" component="portrait" filters="role: phd, group: typhoon" %}
+{% include list.html data="members" component="portrait" filters="role: master, group: typhoon" %}
+
+{% include list.html data="members" component="portrait" filters="role: phd, group: ENSO" %}
+{% include list.html data="members" component="portrait" filters="role: master, group: ENSO" %}
+
+{% include list.html data="members" component="portrait" filters="role: phd, group: NAO" %}
+{% include list.html data="members" component="portrait" filters="role: master, group: NAO" %}
+
+{% include list.html data="members" component="portrait" filters="role: phd, group: precipitation" %}
+{% include list.html data="members" component="portrait" filters="role: master, group: precipitation" %}
+
+{% include list.html data="members" component="portrait" filters="role: phd, group: arctic_sea_ice" %}
+{% include list.html data="members" component="portrait" filters="role: master, group: arctic_sea_ice" %}
+
+{% include list.html data="members" component="portrait" filters="role: phd, group: three-dimensional_temperature_and_salinity" %}
+{% include list.html data="members" component="portrait" filters="role: master, group: three-dimensional_temperature_and_salinity" %}
+
+{% include list.html data="members" component="portrait" filters="role: phd, group: fog" %}
+{% include list.html data="members" component="portrait" filters="role: master, group: fog" %}
+
+{% include list.html data="members" component="portrait" filters="role: phd, group: kuroshio" %}
+{% include list.html data="members" component="portrait" filters="role: master, group: kuroshio" %}
+
+{% include list.html data="members" component="portrait" filters="role: phd, group: others" %}
+{% include list.html data="members" component="portrait" filters="role: master, group: others" %}
 
 {% include section.html %}
 
