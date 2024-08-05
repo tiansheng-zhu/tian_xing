@@ -18,6 +18,9 @@ section[data-size=full] > * {
 
 section[data-size=full] img {
   border-radius: 0;
+  width: 100% !important;
+  height: auto !important;
+  display: block;
 }
 
 main > section:last-of-type {
