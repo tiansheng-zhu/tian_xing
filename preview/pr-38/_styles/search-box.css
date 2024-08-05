@@ -4,7 +4,7 @@
 }
 
 .search-box .search-input {
-  width: 100%;
+  width: 80%;
   height: 100%;
   padding-right: 40px;
 }
@@ -12,14 +12,24 @@
 .search-box button {
   position: absolute;
   inset: 0 0 0 auto;
+  right: 10px;
   display: flex;
   justify-content: center;
   align-items: center;
   padding: 0;
   aspect-ratio: 1/1;
-  background: none;
-  color: var(--black);
+  background: #ffffff;
+  color: #000000;
   border: none;
+  border-radius: 50%;
+  cursor: pointer;
+  transition: background 0.3s, color 0.3s;
+}
+
+.search-box button:hover,
+.search-box button:active {
+  background: #000000;
+  color: #ffffff;
 }
 
 /*# sourceMappingURL=search-box.css.map */
