@@ -1,47 +1,27 @@
-- title: Cool Dataset
-  subtitle: a subtitle
+- title: Deep Neural Network for ENSO Prediction and Sensitive Area Identification
+  subtitle: Understanding and Forecasting EP-type and CP-type ENSO Events
   group: featured
-  image: images/photo.jpg
-  link: https://github.com/
-  description: Lorem ipsum _dolor sit amet_, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.
-  repo: greenelab/lab-website-template
+  image: https://gmd.copernicus.org/articles/15/4105/2022/gmd-15-4105-2022-avatar-web.png
+  link: https://gmd.copernicus.org/articles/15/4105/2022/
+  description: |
+    **Authors:** Bin Mu, Yuehan Cui, Shijin Yuan, Bo Qin  
+    **Publisher:** European Geosciences Union  
+    **Date:** 2022-05-25
+    **ID:** doi:10.5194/gmd-15-4105-2022
   tags:
-    - resource
+    - ENSO
+    - Precursor Analysis
 
-- title: Cool Package
-  subtitle: a subtitle
+- title: Identifying Optimal Precursors of NAO Using CNOP Method in CESM
+  subtitle: Exploring Initial Perturbations and Nonlinear Processes in NAO Prediction
   group: featured
-  image: images/photo.jpg
-  link: https://github.com/
-  description: Lorem ipsum _dolor sit amet_, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.
-  repo: greenelab/lab-website-template
+  image: https://onlinelibrary.wiley.com/cms/asset/782d5b32-7595-46c5-9419-ee3c23cef6b3/scpr3215039-fig-0002-m.png
+  link: https://npg.copernicus.org/preprints/npg-2020-27/
+  description: |
+    **Authors:** Bin Mu, Jing Li, Shijin Yuan, Xiaodan Luo, Guokun Dai  
+    **Publisher:** European Geosciences Union  
+    **Date:** 2020-07-01
+    **ID:** doi:10.5194/npg-2020-27
   tags:
-    - resource
-
-- title: Cool Tutorial
-  subtitle: a subtitle
-  image: images/photo.jpg
-  link: https://github.com/
-  description: Lorem ipsum _dolor sit amet_, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.
-  repo: greenelab/lab-website-template
-  tags:
-    - resource
-    - publication
-
-- title: Cool Web App
-  subtitle: a subtitle
-  image: images/photo.jpg
-  link: https://github.com/
-  description: Lorem ipsum _dolor sit amet_, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.
-  repo: greenelab/lab-website-template
-  tags:
-    - software
-
-- title: Cool Web Server
-  subtitle: a subtitle
-  image: images/photo.jpg
-  link: https://github.com/
-  description: Lorem ipsum _dolor sit amet_, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.
-  repo: greenelab/lab-website-template
-  tags:
-    - software
+    - ENSO
+    - CNOP

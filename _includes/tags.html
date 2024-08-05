@@ -1,7 +1,6 @@
 {% assign tags = include.tags
   | object_items
   | join: ","
-  | downcase
   | split: ","
   | array_filter
   | join: ","
@@ -22,8 +21,10 @@
   >
     {% for tag in tags %}
       <a
-        href="{{ link }}?search=&quot;tag: {{ tag }}&quot;"
+        href="javascript:void(0);"
         class="tag"
+        data-tag="{{ tag }}"
+        onclick="filterByTag('{{ tag | escape }}')"
         data-tooltip="Show items with the tag &quot;{{ tag }}&quot;"
       >
         {{ tag }}

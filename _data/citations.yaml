@@ -11,6 +11,7 @@
   publisher: European Geosciences Union
   date: '2022-05-25'
   link: https://gmd.copernicus.org/articles/15/4105/2022/
+  tags: ENSO, Precursor Analysis
   image: https://gmd.copernicus.org/articles/15/4105/2022/gmd-15-4105-2022-avatar-web.png
   plugin: sources.py
   file: sources.yaml
@@ -26,6 +27,7 @@
   publisher: European Geosciences Union
   date: '2021-11-17'
   link: https://gmd.copernicus.org/articles/14/6977/2021/
+  tags: ENSO, deep learning, Forecast Model
   image: https://gmd.copernicus.org/articles/14/6977/2021/gmd-14-6977-2021-avatar-thumb150.png
   plugin: sources.py
   file: sources.yaml
@@ -40,6 +42,7 @@
   publisher: Springer Link
   date: '2022-01-29'
   link: https://link.springer.com/article/10.1007/s00500-021-06639-8
+  tags: ENSO, intelligent algorithm
   image: https://media.springernature.com/lw685/springer-static/image/art%3A10.1007%2Fs00500-021-06639-8/MediaObjects/500_2021_6639_Fig1_HTML.png?as=webp
   plugin: sources.py
   file: sources.yaml
@@ -54,6 +57,7 @@
   publisher: Wiley
   date: '2022-04-15'
   link: https://onlinelibrary.wiley.com/doi/10.1155/2022/6141966
+  tags: ENSO, typhoon, Machine Learning
   image: https://onlinelibrary.wiley.com/cms/asset/614882d6-a3c1-4c8b-834a-5003f3faba0f/cone6141966-fig-0004-m.jpg
   plugin: sources.py
   file: sources.yaml
@@ -69,6 +73,7 @@
   publisher: European Geosciences Union
   date: '2020-07-01'
   link: https://npg.copernicus.org/preprints/npg-2020-27/
+  tags: ENSO, CNOP
   image: https://onlinelibrary.wiley.com/cms/asset/782d5b32-7595-46c5-9419-ee3c23cef6b3/scpr3215039-fig-0002-m.png
   plugin: sources.py
   file: sources.yaml
@@ -87,6 +92,7 @@
   publisher: Journal of Tropical Meteorology
   date: '2022-06-10'
   link: https://jtm.itmm.org.cn/en/article/doi/10.46267/j.1006-8775.2022.010
+  tags: ENSO, typhoon, CNOP
   image: https://jtm.itmm.org.cn/fileRDQXXB_EN/journal/article/rdqxxben/2022/2/jotm-28-2-121-2.jpg
   plugin: sources.py
   file: sources.yaml
@@ -101,6 +107,7 @@
   publisher: Multidisciplinary Digital Publishing Institute
   date: '2021-03-04'
   link: https://www.mdpi.com/1999-4893/14/3/83
+  tags: typhoon, Intensity Forecasting
   image: https://www.mdpi.com/algorithms/algorithms-14-00083/article_deploy/html/images/algorithms-14-00083-g010-550.jpg
   plugin: sources.py
   file: sources.yaml
