@@ -12,9 +12,11 @@ nav:
 {% include section.html %}
 
 ## 主要研究成果
+<div class="card-container">
 
-{% include list.html component="card" data="projects" filters="group: featured" class="featured-result" %}
+{% include list.html component="card" data="projects" filters="group: featured" %}
 
+</div>
 {% include section.html %}
 
 ## 全部

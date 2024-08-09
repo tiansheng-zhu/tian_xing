@@ -211,8 +211,16 @@
     updateUrl();
   };
 
+  // when user clicks on tag
+  window.onTagClick = (tag) => {
+    const query = `${tag}`;
+    runSearch(query);
+    updateUrl(query);
+  };
+
   // after page loads
   window.addEventListener("load", searchFromUrl);
   // after tags load
   window.addEventListener("tagsfetched", searchFromUrl);
+
 }
