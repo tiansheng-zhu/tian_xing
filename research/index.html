@@ -349,7 +349,7 @@
 
   <script src="/tian_xing/_scripts/fetch-tags.js"></script>
 
-  <script src="/tian_xing/_scripts/filter.js"></script>
+  <script src="/tian_xing/_scripts/filtrer.js"></script>
 
   <script src="/tian_xing/_scripts/search.js"></script>
 
@@ -509,7 +509,27 @@
 -->
 
 <h2 id="主要研究成果">主要研究成果</h2>
+<div class="card-container">
 
+
+
+
+
+
+
+
+
+
+  
+
+  
+    
+  
+
+  
+    
+
+     
 <div class="card" data-style="">
   <a href="https://npg.copernicus.org/preprints/npg-2020-27/" aria-label="Identifying Optimal Precursors of NAO Using CNOP Method in CESM" class="card-image">
     <img src="https://onlinelibrary.wiley.com/cms/asset/782d5b32-7595-46c5-9419-ee3c23cef6b3/scpr3215039-fig-0002-m.png" alt="Identifying Optimal Precursors of NAO Using CNOP Method in CESM" loading="lazy" onerror="this.src = '/tian_xing/images/fallback.svg'; this.onerror = null;">
@@ -542,21 +562,24 @@
 
   <div class="tags" data-link="https://tiansheng-zhu.github.io/tian_xing/research/">
     
-      <a href="javascript:void(0);" class="tag" data-tag="ENSO" onclick="filterByTag('ENSO')" data-tooltip='Show items with the tag "ENSO"'>
+      <a href="javascript:void(0);" class="tag" data-tooltip='Show items with the tag "ENSO"' onclick="onTagClick('ENSO')">
         ENSO
       </a>
     
-      <a href="javascript:void(0);" class="tag" data-tag="CNOP" onclick="filterByTag('CNOP')" data-tooltip='Show items with the tag "CNOP"'>
+      <a href="javascript:void(0);" class="tag" data-tooltip='Show items with the tag "CNOP"' onclick="onTagClick('CNOP')">
         CNOP
       </a>
     
   </div>
 
-
     
   </div>
 </div>
 
+  
+    
+
+     
 <div class="card" data-style="">
   <a href="https://gmd.copernicus.org/articles/15/4105/2022/" aria-label="Deep Neural Network for ENSO Prediction and Sensitive Area Identification" class="card-image">
     <img src="https://gmd.copernicus.org/articles/15/4105/2022/gmd-15-4105-2022-avatar-web.png" alt="Deep Neural Network for ENSO Prediction and Sensitive Area Identification" loading="lazy" onerror="this.src = '/tian_xing/images/fallback.svg'; this.onerror = null;">
@@ -589,19 +612,24 @@
 
   <div class="tags" data-link="https://tiansheng-zhu.github.io/tian_xing/research/">
     
-      <a href="javascript:void(0);" class="tag" data-tag="ENSO" onclick="filterByTag('ENSO')" data-tooltip='Show items with the tag "ENSO"'>
+      <a href="javascript:void(0);" class="tag" data-tooltip='Show items with the tag "ENSO"' onclick="onTagClick('ENSO')">
         ENSO
       </a>
     
-      <a href="javascript:void(0);" class="tag" data-tag="Precursor-Analysis" onclick="filterByTag('Precursor-Analysis')" data-tooltip='Show items with the tag "Precursor-Analysis"'>
+      <a href="javascript:void(0);" class="tag" data-tooltip='Show items with the tag "Precursor-Analysis"' onclick="onTagClick('Precursor-Analysis')">
         Precursor-Analysis
       </a>
     
   </div>
 
-
     
   </div>
+</div>
+
+  
+
+
+
 </div>
   </section>
 
@@ -618,73 +646,16 @@
 
 <h2 id="全部">全部</h2>
 
-<div class="search-box">
+<div class="search-box" data-support-tags="true">
   <input type="text" class="search-input" oninput="onSearchInput(this)" placeholder="Search items on this page">
   <button disabled data-tooltip="Clear search" aria-label="clear search" onclick="onSearchClear()">
     <i class="icon fa-solid fa-magnifying-glass"></i>
   </button>
 </div>
 
-<div class="tags" data-link="https://tiansheng-zhu.github.io/tian_xing/research/">
-    
-      <a href="javascript:void(0);" class="tag" data-tag="CNOP" onclick="filterByTag('CNOP')" data-tooltip='Show items with the tag "CNOP"'>
-        CNOP
-      </a>
-    
-      <a href="javascript:void(0);" class="tag" data-tag="Forecast-Model" onclick="filterByTag('Forecast-Model')" data-tooltip='Show items with the tag "Forecast-Model"'>
-        Forecast-Model
-      </a>
-    
-      <a href="javascript:void(0);" class="tag" data-tag="Intensity-Forecasting" onclick="filterByTag('Intensity-Forecasting')" data-tooltip='Show items with the tag "Intensity-Forecasting"'>
-        Intensity-Forecasting
-      </a>
-    
-      <a href="javascript:void(0);" class="tag" data-tag="Machine-Learning" onclick="filterByTag('Machine-Learning')" data-tooltip='Show items with the tag "Machine-Learning"'>
-        Machine-Learning
-      </a>
-    
-      <a href="javascript:void(0);" class="tag" data-tag="Precursor-Analysis" onclick="filterByTag('Precursor-Analysis')" data-tooltip='Show items with the tag "Precursor-Analysis"'>
-        Precursor-Analysis
-      </a>
-    
-      <a href="javascript:void(0);" class="tag" data-tag="deep-learning" onclick="filterByTag('deep-learning')" data-tooltip='Show items with the tag "deep-learning"'>
-        deep-learning
-      </a>
-    
-      <a href="javascript:void(0);" class="tag" data-tag="intelligent-algorithm" onclick="filterByTag('intelligent-algorithm')" data-tooltip='Show items with the tag "intelligent-algorithm"'>
-        intelligent-algorithm
-      </a>
-    
-      <a href="javascript:void(0);" class="tag" data-tag="typhoon" onclick="filterByTag('typhoon')" data-tooltip='Show items with the tag "typhoon"'>
-        typhoon
-      </a>
-    
-      <a href="javascript:void(0);" class="tag" data-tag="ENSO" onclick="filterByTag('ENSO')" data-tooltip='Show items with the tag "ENSO"'>
-        ENSO
-      </a>
-    
-  </div>
+<div class="search-info"></div>
 
-<div id="citations-list">
-  
-
-
-
-
-
-
-
-
-  
-
-  <h3>2022</h3>
-    
-  
-
-  
-    
-
-    
+<h3>2022</h3>
 
 <div class="citation-container">
   <div class="citation">
@@ -729,31 +700,25 @@
 
   <div class="tags" data-link="https://tiansheng-zhu.github.io/tian_xing/research/">
     
-      <a href="javascript:void(0);" class="tag" data-tag="ENSO" onclick="filterByTag('ENSO')" data-tooltip='Show items with the tag "ENSO"'>
+      <a href="javascript:void(0);" class="tag" data-tooltip='Show items with the tag "ENSO"' onclick="onTagClick('ENSO')">
         ENSO
       </a>
     
-      <a href="javascript:void(0);" class="tag" data-tag="typhoon" onclick="filterByTag('typhoon')" data-tooltip='Show items with the tag "typhoon"'>
+      <a href="javascript:void(0);" class="tag" data-tooltip='Show items with the tag "typhoon"' onclick="onTagClick('typhoon')">
         typhoon
       </a>
     
-      <a href="javascript:void(0);" class="tag" data-tag="CNOP" onclick="filterByTag('CNOP')" data-tooltip='Show items with the tag "CNOP"'>
+      <a href="javascript:void(0);" class="tag" data-tooltip='Show items with the tag "CNOP"' onclick="onTagClick('CNOP')">
         CNOP
       </a>
     
   </div>
-
 
         
       
     </div>
   </div>
 </div>
-
-  
-    
-
-    
 
 <div class="citation-container">
   <div class="citation">
@@ -795,27 +760,21 @@
 
   <div class="tags" data-link="https://tiansheng-zhu.github.io/tian_xing/research/">
     
-      <a href="javascript:void(0);" class="tag" data-tag="ENSO" onclick="filterByTag('ENSO')" data-tooltip='Show items with the tag "ENSO"'>
+      <a href="javascript:void(0);" class="tag" data-tooltip='Show items with the tag "ENSO"' onclick="onTagClick('ENSO')">
         ENSO
       </a>
     
-      <a href="javascript:void(0);" class="tag" data-tag="Precursor-Analysis" onclick="filterByTag('Precursor-Analysis')" data-tooltip='Show items with the tag "Precursor-Analysis"'>
+      <a href="javascript:void(0);" class="tag" data-tooltip='Show items with the tag "Precursor-Analysis"' onclick="onTagClick('Precursor-Analysis')">
         Precursor-Analysis
       </a>
     
   </div>
-
 
         
       
     </div>
   </div>
 </div>
-
-  
-    
-
-    
 
 <div class="citation-container">
   <div class="citation">
@@ -857,31 +816,25 @@
 
   <div class="tags" data-link="https://tiansheng-zhu.github.io/tian_xing/research/">
     
-      <a href="javascript:void(0);" class="tag" data-tag="ENSO" onclick="filterByTag('ENSO')" data-tooltip='Show items with the tag "ENSO"'>
+      <a href="javascript:void(0);" class="tag" data-tooltip='Show items with the tag "ENSO"' onclick="onTagClick('ENSO')">
         ENSO
       </a>
     
-      <a href="javascript:void(0);" class="tag" data-tag="typhoon" onclick="filterByTag('typhoon')" data-tooltip='Show items with the tag "typhoon"'>
+      <a href="javascript:void(0);" class="tag" data-tooltip='Show items with the tag "typhoon"' onclick="onTagClick('typhoon')">
         typhoon
       </a>
     
-      <a href="javascript:void(0);" class="tag" data-tag="Machine-Learning" onclick="filterByTag('Machine-Learning')" data-tooltip='Show items with the tag "Machine-Learning"'>
+      <a href="javascript:void(0);" class="tag" data-tooltip='Show items with the tag "Machine-Learning"' onclick="onTagClick('Machine-Learning')">
         Machine-Learning
       </a>
     
   </div>
-
 
         
       
     </div>
   </div>
 </div>
-
-  
-    
-
-    
 
 <div class="citation-container">
   <div class="citation">
@@ -923,16 +876,15 @@
 
   <div class="tags" data-link="https://tiansheng-zhu.github.io/tian_xing/research/">
     
-      <a href="javascript:void(0);" class="tag" data-tag="ENSO" onclick="filterByTag('ENSO')" data-tooltip='Show items with the tag "ENSO"'>
+      <a href="javascript:void(0);" class="tag" data-tooltip='Show items with the tag "ENSO"' onclick="onTagClick('ENSO')">
         ENSO
       </a>
     
-      <a href="javascript:void(0);" class="tag" data-tag="intelligent-algorithm" onclick="filterByTag('intelligent-algorithm')" data-tooltip='Show items with the tag "intelligent-algorithm"'>
+      <a href="javascript:void(0);" class="tag" data-tooltip='Show items with the tag "intelligent-algorithm"' onclick="onTagClick('intelligent-algorithm')">
         intelligent-algorithm
       </a>
     
   </div>
-
 
         
       
@@ -940,18 +892,7 @@
   </div>
 </div>
 
-  
-
-  
-
-  <h3>2021</h3>
-    
-  
-
-  
-    
-
-    
+<h3>2021</h3>
 
 <div class="citation-container">
   <div class="citation">
@@ -996,31 +937,25 @@
 
   <div class="tags" data-link="https://tiansheng-zhu.github.io/tian_xing/research/">
     
-      <a href="javascript:void(0);" class="tag" data-tag="ENSO" onclick="filterByTag('ENSO')" data-tooltip='Show items with the tag "ENSO"'>
+      <a href="javascript:void(0);" class="tag" data-tooltip='Show items with the tag "ENSO"' onclick="onTagClick('ENSO')">
         ENSO
       </a>
     
-      <a href="javascript:void(0);" class="tag" data-tag="deep-learning" onclick="filterByTag('deep-learning')" data-tooltip='Show items with the tag "deep-learning"'>
+      <a href="javascript:void(0);" class="tag" data-tooltip='Show items with the tag "deep-learning"' onclick="onTagClick('deep-learning')">
         deep-learning
       </a>
     
-      <a href="javascript:void(0);" class="tag" data-tag="Forecast-Model" onclick="filterByTag('Forecast-Model')" data-tooltip='Show items with the tag "Forecast-Model"'>
+      <a href="javascript:void(0);" class="tag" data-tooltip='Show items with the tag "Forecast-Model"' onclick="onTagClick('Forecast-Model')">
         Forecast-Model
       </a>
     
   </div>
-
 
         
       
     </div>
   </div>
 </div>
-
-  
-    
-
-    
 
 <div class="citation-container">
   <div class="citation">
@@ -1062,16 +997,15 @@
 
   <div class="tags" data-link="https://tiansheng-zhu.github.io/tian_xing/research/">
     
-      <a href="javascript:void(0);" class="tag" data-tag="typhoon" onclick="filterByTag('typhoon')" data-tooltip='Show items with the tag "typhoon"'>
+      <a href="javascript:void(0);" class="tag" data-tooltip='Show items with the tag "typhoon"' onclick="onTagClick('typhoon')">
         typhoon
       </a>
     
-      <a href="javascript:void(0);" class="tag" data-tag="Intensity-Forecasting" onclick="filterByTag('Intensity-Forecasting')" data-tooltip='Show items with the tag "Intensity-Forecasting"'>
+      <a href="javascript:void(0);" class="tag" data-tooltip='Show items with the tag "Intensity-Forecasting"' onclick="onTagClick('Intensity-Forecasting')">
         Intensity-Forecasting
       </a>
     
   </div>
-
 
         
       
@@ -1079,18 +1013,7 @@
   </div>
 </div>
 
-  
-
-  
-
-  <h3>2020</h3>
-    
-  
-
-  
-    
-
-    
+<h3>2020</h3>
 
 <div class="citation-container">
   <div class="citation">
@@ -1132,29 +1055,21 @@
 
   <div class="tags" data-link="https://tiansheng-zhu.github.io/tian_xing/research/">
     
-      <a href="javascript:void(0);" class="tag" data-tag="ENSO" onclick="filterByTag('ENSO')" data-tooltip='Show items with the tag "ENSO"'>
+      <a href="javascript:void(0);" class="tag" data-tooltip='Show items with the tag "ENSO"' onclick="onTagClick('ENSO')">
         ENSO
       </a>
     
-      <a href="javascript:void(0);" class="tag" data-tag="CNOP" onclick="filterByTag('CNOP')" data-tooltip='Show items with the tag "CNOP"'>
+      <a href="javascript:void(0);" class="tag" data-tooltip='Show items with the tag "CNOP"' onclick="onTagClick('CNOP')">
         CNOP
       </a>
     
   </div>
-
 
         
       
     </div>
   </div>
 </div>
-
-  
-
-
-</div>
-
-<div class="search-info"></div>
   </section>
 
 
@@ -1275,6 +1190,5 @@
   <input type="checkbox" class="dark-toggle" data-tooltip="Dark mode" aria-label="toggle dark mode" oninput="onDarkToggleChange(event)">
 </footer>
 
-    <script src="/tian_xing/_scripts/filter.js"></script>
   </body>
 </html>

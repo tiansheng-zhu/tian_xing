@@ -1,10 +1,9 @@
 .card {
-  display: inline-flex;
-  justify-content: stretch;
-  align-items: center;
+  display: flex;
+  justify-content: space-between;
+  align-items: stretch;
   flex-direction: column;
-  width: 350px;
-  max-width: calc(100% - 20px - 20px);
+  width: calc(50% - 40px);
   margin: 20px;
   background: var(--background);
   border-radius: var(--rounded);
@@ -21,6 +20,7 @@
   aspect-ratio: 3/2;
   object-fit: cover;
   width: 100%;
+  box-shadow: var(--shadow);
 }
 
 .card-text {
@@ -45,6 +45,12 @@
 .card-subtitle {
   margin-top: -10px !important;
   font-style: italic;
+}
+
+.card-container {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
 }
 
 /*# sourceMappingURL=card.css.map */
