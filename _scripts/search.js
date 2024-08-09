@@ -1,13 +1,11 @@
-console.log("search.js loaded");
-
 /*
-  Filters elements on page based on url or search box.
+  filters elements on page based on url or search box.
   syntax: term1 term2 "full phrase 1" "full phrase 2" "tag: tag 1"
   match if: all terms AND at least one phrase AND at least one tag
 */
 {
   // elements to filter
-  const elementSelector = "#citations-list .citation-container";
+  const elementSelector = ".card:not(.featured-result), .citation, .post-excerpt";
   // search box element
   const searchBoxSelector = ".search-box";
   // results info box element
@@ -16,7 +14,7 @@ console.log("search.js loaded");
   const tagSelector = ".tag";
 
   // split search query into terms, phrases, and tags
-  const splitQuery = (query) => {
+  const splitQuery = (query, supportTags) => {
     // split into parts, preserve quotes
     const parts = query.match(/"[^"]*"|\S+/g) || [];
 
@@ -49,10 +47,11 @@ console.log("search.js loaded");
       .join(" ");
 
   // determine if element should show up in results based on query
-  const elementMatches = (element, { terms, phrases, tags }) => {
+  const elementMatches = (element, { terms, phrases, tags }, supportTags) => {
     // tag elements within element
-    const tagElements = [...element.querySelectorAll(".tag")];
-
+    const tagElements = supportTags
+      ? [...element.querySelectorAll(".tag")]
+      : [];
     // check if text content exists in element
     const hasText = (string) =>
       (
@@ -75,22 +74,23 @@ console.log("search.js loaded");
   };
 
   // loop through elements, hide/show based on query, and return results info
-  const filterElements = (parts) => {
+  const filterElements = (parts, supportTags) => {
     let elements = document.querySelectorAll(elementSelector);
 
     // results info
     let x = 0;
     let n = elements.length;
+    let tags = parts.tags;
 
     // filter elements
     for (const element of elements) {
-      if (elementMatches(element, parts)) {
+      if (elementMatches(element, parts, supportTags)) {
         element.style.display = "";
         x++;
       } else element.style.display = "none";
     }
 
-    return [x, n];
+    return [x, n, tags];
   };
 
   // highlight search terms
@@ -131,16 +131,22 @@ console.log("search.js loaded");
   const updateInfoBox = (query, x, n) => {
     const boxes = document.querySelectorAll(infoBoxSelector);
 
-    // info template
-    let info = "";
-    info += `Showing ${x.toLocaleString()} of ${n.toLocaleString()} results<br>`;
-    info += "<a href='./'>Clear search</a>";
+    if (query.trim()) {
+      // show all info boxes
+      boxes.forEach((info) => (info.style.display = ""));
 
-    // set info HTML string
-    boxes.forEach((el) => {
-      el.style.display = ""; // 确保总是显示
-      el.innerHTML = info;
-    });
+      // info template
+      let info = "";
+      info += "<a href='./'>Clear search</a>";
+
+      // set info HTML string
+      boxes.forEach((el) => (el.innerHTML = info));
+    }
+    // if nothing searched
+    else {
+      // hide all info boxes
+      boxes.forEach((info) => (info.style.display = "none"));
+    }
   };
 
   // update tags based on query
@@ -156,11 +162,14 @@ console.log("search.js loaded");
 
   // run search with query
   const runSearch = (query = "") => {
-    const parts = splitQuery(query);
-    const [x, n] = filterElements(parts);
+    const supportTags =
+      document.querySelector(searchBoxSelector)?.dataset.supportTags ===
+      "true";
+    const parts = splitQuery(query, supportTags);
+    const [x, n] = filterElements(parts, supportTags);
     updateSearchBox(query);
     updateInfoBox(query, x, n);
-    updateTags(query);
+    updateTags(query, supportTags);
     highlightMatches(parts);
   };
 

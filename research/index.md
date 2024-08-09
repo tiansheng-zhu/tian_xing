@@ -13,28 +13,14 @@ nav:
 
 ## 主要研究成果
 
-{% include list.html component="card" data="projects" filters="group: featured" %}
+{% include list.html component="card" data="projects" filters="group: featured" class="featured-result" %}
 
 {% include section.html %}
 
 ## 全部
 
-{% include search-box.html %}
-
-{% assign all_tags = "" %}
-
-{% for citation in site.data.citations %}
-
-  {% assign all_tags = all_tags | append: citation.tags | append: "," %}
-
-{% endfor %}
-
-{% assign tags_array = all_tags | split: "," | uniq | sort %}
-
-{% include tags.html tags=tags_array %}
-
-<div id="citations-list">
-  {% include list.html data="citations" component="citation" style="rich" %}
-</div>
+{% include search-box.html support_tags=true %}
 
 {% include search-info.html %}
+
+{% include list.html data="citations" component="citation" style="rich" %}
