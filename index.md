@@ -10,37 +10,37 @@
   style="square"
 
   image1="images/research_topics/topic-monitoring.jpeg"
-  link1="https://quantmarineecolab.github.io/research/monitoring"
+  link1=""
   tooltip1="Ecological monitoring"
 
   image2="images/research_topics/topic-seafood.jpeg"
-  link2="https://quantmarineecolab.github.io/research/seafood"
+  link2=""
   tooltip2="Sustainable seafood"
 
   image3="images/research_topics/topic-extreme.jpeg"
-  link3="https://quantmarineecolab.github.io/publications/"
+  link3=""
   tooltip3="Extreme events"
 
   image4="images/research_topics/topic-ses.jpeg"
-  link4="https://quantmarineecolab.github.io/research/socioeco"
+  link4=""
   tooltip4="Socio-ecological dynamics"
   
   image5="images/research_topics/topic-spatial.jpeg"
-  link5="https://quantmarineecolab.github.io/publications/"
+  link5=""
   tooltip5="Spatial ecology"
   
   image6="images/research_topics/topic-bioed.jpeg"
-  link6="https://quantmarineecolab.github.io/research/bioed"
+  link6=""
   tooltip6="Biology education research"
 %}
 
 {% include section.html size="full" %}
 
-{% include banner.html image="images/banner.jpg" %}
+{% include banner.html image="images/banner_sea.jpg" %}
 
 {% include section.html %}
 
-## 实验室总览
+# 总  览
 
 {% capture text %}
 
@@ -49,7 +49,7 @@
 {%
   include button.html
   link="research"
-  text="查看实验室已有成果"
+  text="成果展示"
   icon="fa-solid fa-arrow-right"
   flip=true
   style="button"
@@ -72,7 +72,7 @@
 {%
   include button.html
   link="team"
-  text="查看研究团队介绍"
+  text="团队介绍"
   icon="fa-solid fa-arrow-right"
   flip=true
   style="button"
@@ -97,7 +97,7 @@
 {%
   include button.html
   link="blog"
-  text="查看实验室最新新闻"
+  text="最新新闻"
   icon="fa-solid fa-arrow-right"
   flip=true
   style="button"
