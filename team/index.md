@@ -4,7 +4,7 @@ nav:
   order: 2
   tooltip: 研究团队介绍
 redirect_from:
-
+  team
 ---
 
 # {% include icon.html icon="fa-solid fa-users" %}研究团队
@@ -15,48 +15,35 @@ redirect_from:
 
 ## 导师
 
-袁老师和穆老师
-
 {% include list.html data="members" component="portrait" filters="role: tutor, group: " %}
-
-{% include section.html background="images/background.jpg" dark=true %}
-
-这里可以写点什么...
 
 {% include section.html %}
 
-## 博士生和研究生
-
-实验室的博士生和硕士生研究了许多气候现象，包括台风、降水等。
+## 研究生
 
 {% include list.html data="members" component="portrait" filters="role: phd, group: typhoon" %}
-{% include list.html data="members" component="portrait" filters="role: master, group: typhoon" %}
-
 {% include list.html data="members" component="portrait" filters="role: phd, group: ENSO" %}
-{% include list.html data="members" component="portrait" filters="role: master, group: ENSO" %}
-
 {% include list.html data="members" component="portrait" filters="role: phd, group: NAO" %}
-{% include list.html data="members" component="portrait" filters="role: master, group: NAO" %}
-
 {% include list.html data="members" component="portrait" filters="role: phd, group: precipitation" %}
-{% include list.html data="members" component="portrait" filters="role: master, group: precipitation" %}
-
 {% include list.html data="members" component="portrait" filters="role: phd, group: arctic_sea_ice" %}
-{% include list.html data="members" component="portrait" filters="role: master, group: arctic_sea_ice" %}
-
 {% include list.html data="members" component="portrait" filters="role: phd, group: three-dimensional_temperature_and_salinity" %}
-{% include list.html data="members" component="portrait" filters="role: master, group: three-dimensional_temperature_and_salinity" %}
-
 {% include list.html data="members" component="portrait" filters="role: phd, group: fog" %}
-{% include list.html data="members" component="portrait" filters="role: master, group: fog" %}
-
 {% include list.html data="members" component="portrait" filters="role: phd, group: kuroshio" %}
-{% include list.html data="members" component="portrait" filters="role: master, group: kuroshio" %}
-
 {% include list.html data="members" component="portrait" filters="role: phd, group: others" %}
+
+{% include list.html data="members" component="portrait" filters="role: master, group: typhoon" %}
+{% include list.html data="members" component="portrait" filters="role: master, group: ENSO" %}
+{% include list.html data="members" component="portrait" filters="role: master, group: NAO" %}
+{% include list.html data="members" component="portrait" filters="role: master, group: precipitation" %}
+{% include list.html data="members" component="portrait" filters="role: master, group: arctic_sea_ice" %}
+{% include list.html data="members" component="portrait" filters="role: master, group: three-dimensional_temperature_and_salinity" %}
+{% include list.html data="members" component="portrait" filters="role: master, group: fog" %}
+{% include list.html data="members" component="portrait" filters="role: master, group: kuroshio" %}
 {% include list.html data="members" component="portrait" filters="role: master, group: others" %}
 
 {% include section.html %}
+
+{% include button.html icon="fa-solid fa-handshake-angle" text="加入我们" link="team" style="button" %}
 
 {%
   include figure.html
