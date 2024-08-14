@@ -1,23 +1,17 @@
-@charset "UTF-8";
 .tags {
-  margin-top: auto;
-  /* 确保标签区域始终在卡片底部 */
   display: flex;
   justify-content: center;
   align-items: center;
   flex-wrap: wrap;
-  gap: 13px;
-  padding: 10px 20px;
-  background: var(--background);
-  /* 确保背景色与卡片一致 */
-  flex-shrink: 0;
-  /* 防止标签区域被压缩 */
+  gap: 10px;
+  max-width: 100%;
+  margin: 20px 0;
 }
 
 .tag {
   max-width: 100%;
   margin: 0;
-  padding: 8px 16px;
+  padding: 5px 10px;
   border-radius: 999px;
   background: var(--secondary);
   color: var(--text);
@@ -25,24 +19,15 @@
   overflow: hidden;
   text-overflow: ellipsis;
   white-space: nowrap;
-  font-size: 1.1rem;
-  transition: background var(--transition), color var(--transition), transform 0.2s ease-in-out;
+  transition: background var(--transition), color var(--transition);
 }
 
 .tag:hover {
-  background: #0056b3;
-  /* 鼠标悬停时显示深蓝色 */
-  color: #ffffff;
-  /* 确保文字在深蓝色背景上清晰可见 */
-  transform: scale(1.03);
-  /* 添加轻微缩放效果，提高互动性 */
+  background: var(--light-gray);
 }
 
 .tag[data-active] {
-  background: #0056b3;
-  /* 激活状态时也显示深蓝色 */
-  color: #ffffff;
-  /* 确保文字在深蓝色背景上清晰可见 */
+  background: var(--light-gray);
 }
 
 /*# sourceMappingURL=tags.css.map */

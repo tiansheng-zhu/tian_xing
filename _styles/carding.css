@@ -1,43 +1,34 @@
-@charset "UTF-8";
 .card {
-  display: flex;
-  justify-content: space-between;
-  align-items: stretch;
+  display: inline-flex;
+  justify-content: stretch;
+  align-items: center;
   flex-direction: column;
-  width: calc(45% - 30px);
-  /* 调整卡片宽度 */
-  margin: 20px;
+  width: 250px;
+  max-width: calc(100% - 20px - 20px);
+  margin: 15px;
   background: var(--background);
-  border-radius: var(--rounded);
   overflow: hidden;
-  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
-  /* 添加初始阴影效果 */
   vertical-align: top;
-  transition: transform 0.3s ease, box-shadow 0.3s ease;
-  /* 添加过渡效果 */
 }
 
 .card[data-style=small] {
-  width: 250px;
+  width: 150px;
 }
 
 .card-image img {
   aspect-ratio: 3/2;
   object-fit: cover;
   width: 100%;
-  box-shadow: var(--shadow);
 }
 
 .card-text {
-  display: flex;
+  display: inline-flex;
   justify-content: flex-start;
-  align-items: flex-start;
-  /* 左对齐文本 */
+  align-items: center;
   flex-direction: column;
-  gap: 10px;
-  /* 减小间距 */
+  gap: 15px;
   max-width: 100%;
-  padding: 20px;
+  padding: 15px;
 }
 
 .card-text > * {
@@ -50,33 +41,15 @@
 }
 
 .card-subtitle {
-  margin-top: -10px !important;
+  margin-top: -8px !important;
   font-style: italic;
 }
 
-/* 新增：卡片详细信息样式 */
-.card-details {
-  display: flex;
-  flex-direction: column;
-  gap: 5px;
-  /* 设置行间距 */
-  margin-top: 10px;
-  font-size: 0.9rem;
+.card-date {
+  font-family: var(--body);
+  font-size: 0.875rem;
   color: var(--text-muted);
-}
-
-.card-container {
-  display: flex;
-  flex-wrap: wrap;
-  justify-content: space-between;
-}
-
-/* 新增：卡片悬停效果 */
-.card:hover {
-  transform: translateY(-10px);
-  /* 鼠标悬停时卡片上移 */
-  box-shadow: 0 8px 16px rgba(0, 0, 0, 0.2);
-  /* 增强阴影效果 */
+  margin-top: -4px;
 }
 
 /*# sourceMappingURL=carding.css.map */
