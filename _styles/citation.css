@@ -9,6 +9,8 @@
   background: var(--background);
   overflow: hidden;
   box-shadow: var(--shadow);
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+  transition: transform 0.3s ease, box-shadow 0.3s ease;
 }
 
 .citation-image {
@@ -92,6 +94,10 @@
     width: unset;
     height: 180px;
   }
+}
+.citation:hover {
+  transform: translateY(-10px);
+  box-shadow: 0 8px 16px rgba(0, 0, 0, 0.2);
 }
 
 /*# sourceMappingURL=citation.css.map */
