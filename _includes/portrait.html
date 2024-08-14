@@ -7,16 +7,9 @@
   {% assign member = include %}
 {% endif %}
 
-{% assign nointerests = include.nointerests | default: false %}
-{% assign external-page-only = include.external-page-only | default: "" %}
-
-
 <div class="portrait-wrapper">
   <a
-    {% if external-page-only != "" %}
-      href="{{ external-page-only  }}"
-    {% endif %}
-    {% if external-page-only == "" and page.slug != member.slug %}
+    {% if page.slug != member.slug %}
       href="{{ member.url | relative_url }}"
     {% endif %}
     class="portrait"
@@ -41,20 +34,12 @@
 
         {% if member.role or member.description %}
           <span class="portrait-role">
-            <span>{{ member.brief-desc }}</span>
+            {% assign type = site.data.types[member.role] %}
+            {% include icon.html icon=type.icon %}
+            <span>{{ member.description | default: type.description }}</span>
           </span>
         {% endif %}
       </span>
     {% endif %}
-
-    {% if member.brief-position and nointerests == false %}
-
-      <hr class="person-sep">
-      <span class="portrait-desc">
-        {{ member.brief-position  }}
-      </span>
-    {% endif %}
-
-
   </a>
 </div>
