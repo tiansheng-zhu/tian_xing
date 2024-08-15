@@ -56,8 +56,8 @@
 
 
 - title: 降水
-  image: http://image.nmc.cn/product/2024/08/15/STFC/medium/SEVP_NMC_STFC_SFER_ER24_ACHN_L88_P9_20240815060002400.JPG?v=1723689003740
-  link: http://nmc.cn/publish/precipitation/1-day.html
+  image: images/themes/precipitation.jpg 
+  link: http://nmc.cn/publish/observations/hourly-precipitation.html
   description: 利用AI次季节到季节尺度预报和智能数值模式，提高降水事件的时空预测精度，为水资源管理和灾害防控提供支持。
   group: theme
 
