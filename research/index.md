@@ -11,7 +11,14 @@ nav:
 
 {% include section.html %}
 
-## 主要研究成果
+# {% include icon.html icon="fa-solid fa-microscope" %}主题
+<div class="themes-section">
+  {% include list.html component="card" data="projects" filters="group: theme" style="small" %}
+</div>
+
+{% include section.html %}
+
+# {% include icon.html icon="fa-solid fa-microscope" %}主要研究成果
 <div class="card-container">
 
 {% include list.html component="card" data="projects" filters="group: featured" %}
@@ -19,7 +26,7 @@ nav:
 </div>
 {% include section.html %}
 
-## 全部
+# {% include icon.html icon="fa-solid fa-microscope" %}全部
 
 {% include search-box.html support_tags=true %}
 

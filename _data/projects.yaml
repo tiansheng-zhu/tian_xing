@@ -25,3 +25,39 @@
   tags:
     - ENSO
     - CNOP
+
+
+
+- title: Maritime Transport 
+  image: images/themes/maritime.jpg
+  description: Models and analysis of container and energy shipping networks.
+  group: theme
+
+- title: Infrastructure Resilience
+  image: images/themes/resilience.jpg
+  description: Network resilience against natural disasers and targetted attacks.
+  group: theme
+
+
+- title: Agent-based Simulation
+  image: images/themes/agent-based.jpg
+  description: Development of in-house models for logic-intensive simulations.
+  group: theme
+
+
+- title: RL for Multi-Vehicle Control
+  image: images/themes/rl.jpg
+  description: Determining optimal policies for distributed and robust control.
+  group: theme
+
+
+- title: AV Operations
+  image: images/themes/avs.jpg
+  description: Safety & Integration of autonomous vehicles with civil infrastructure.
+  group: theme
+
+
+- title: Freight & Logistics
+  image: images/themes/freight.jpg
+  description: Freight distribution models, last-mile logistics, and urban freight.
+  group: theme
