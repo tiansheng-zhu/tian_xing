@@ -37,7 +37,7 @@ redirect_from:
 {% include list.html data="members" component="portrait" filters="role: master, group: kuroshio" %}
 {% include list.html data="members" component="portrait" filters="role: master, group: others" %}
 
-{% include section.html %}
+{% include section.html background="images/banner.jpg" dark=true%}
 
 {% include button.html icon="fa-solid fa-handshake-angle" text="加入我们" link="team" style="button" %}
 
