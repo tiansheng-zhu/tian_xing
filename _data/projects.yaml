@@ -45,7 +45,7 @@
   image: images/themes/NAO.jpg
   link: https://www.ncei.noaa.gov/access/monitoring/nao/
   description: 采用深度学习与CESM耦合模式，结合集合预报和敏感区识别，提升NAO的预报精度，为北半球气候异常预报提供依据。
-  group: theme
+  group: themes
 
 
 - title: 台风
