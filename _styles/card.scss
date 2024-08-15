@@ -7,17 +7,23 @@
   justify-content: space-between;
   align-items: stretch;
   width: calc(45% - 30px);
-  margin: 20px;
+  margin: 30px;
   background: var(--background);
   border-radius: var(--rounded);
   overflow: hidden;
   box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
   transition: transform 0.3s ease, box-shadow 0.3s ease;
   min-height: 100%;
+    transform: scale(0.80);
+      /* 缩小卡片为原来的75% */
+      transform-origin: top left;
+      /* 设置缩放的原点为左上角 */
 }
 
 .card[data-style="small"] {
   width: 250px;
+    transform: scale(0.80);
+      /* 缩小小卡片为原来的75% */
 }
 
 .card-image {
@@ -79,6 +85,7 @@
 }
 
 .card:hover {
-  transform: translateY(-10px);
+  transform: translateY(-10px) scale(0.80);
+    /* 在悬停时保持缩放比例并增加浮动效果 */
   box-shadow: 0 8px 16px rgba(0, 0, 0, 0.2);
 }
