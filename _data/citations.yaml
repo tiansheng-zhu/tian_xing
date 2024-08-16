@@ -11,7 +11,7 @@
   publisher: European Geosciences Union
   date: '2022-05-25'
   link: https://gmd.copernicus.org/articles/15/4105/2022/
-  tags: ENSO, Precursor Analysis
+  tags: ENSO, Prediction
   image: https://gmd.copernicus.org/articles/15/4105/2022/gmd-15-4105-2022-avatar-web.png
   plugin: sources.py
   file: sources.yaml
