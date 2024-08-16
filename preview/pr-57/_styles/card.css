@@ -1,35 +1,40 @@
+@charset "UTF-8";
 .card {
-  display: inline-flex;
-  justify-content: stretch;
-  align-items: center;
+  display: flex;
   flex-direction: column;
-  width: 350px;
-  max-width: calc(100% - 20px - 20px);
-  margin: 20px;
+  justify-content: space-between;
+  align-items: stretch;
+  width: calc(40% - 30px);
+  /* 调整卡片宽度 */
+  margin: 30px;
   background: var(--background);
   border-radius: var(--rounded);
   overflow: hidden;
-  box-shadow: var(--shadow);
-  vertical-align: top;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+  transition: transform 0.3s ease, box-shadow 0.3s ease;
+  min-height: 100%;
 }
 
 .card[data-style=small] {
-  width: 250px;
+  width: 200px;
+}
+
+.card-image {
+  flex: 0 0 auto;
 }
 
 .card-image img {
   aspect-ratio: 3/2;
   object-fit: cover;
   width: 100%;
+  box-shadow: var(--shadow);
 }
 
 .card-text {
-  display: inline-flex;
-  justify-content: flex-start;
-  align-items: center;
+  flex-grow: 1;
+  display: flex;
   flex-direction: column;
-  gap: 20px;
-  max-width: 100%;
+  justify-content: flex-start;
   padding: 20px;
 }
 
@@ -45,6 +50,37 @@
 .card-subtitle {
   margin-top: -10px !important;
   font-style: italic;
+}
+
+.card-details {
+  display: flex;
+  flex-direction: column;
+  gap: 5px;
+  margin-top: 10px;
+  font-size: 0.9rem;
+  color: var(--text-muted);
+}
+
+.card-container {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+  align-items: stretch;
+  min-height: 100%;
+}
+
+.card-container {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+  align-items: stretch;
+  height: auto;
+}
+
+.card:hover {
+  transform: translateY(-10px);
+  /* 在悬停时保持缩放比例并增加浮动效果 */
+  box-shadow: 0 8px 16px rgba(0, 0, 0, 0.2);
 }
 
 /*# sourceMappingURL=card.css.map */

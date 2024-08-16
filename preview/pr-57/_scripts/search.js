@@ -5,7 +5,7 @@
 */
 {
   // elements to filter
-  const elementSelector = ".card, .citation, .post-excerpt";
+  const elementSelector = ".card:not(.featured-result), .citation, .post-excerpt";
   // search box element
   const searchBoxSelector = ".search-box";
   // results info box element
@@ -14,7 +14,7 @@
   const tagSelector = ".tag";
 
   // split search query into terms, phrases, and tags
-  const splitQuery = (query) => {
+  const splitQuery = (query, supportTags) => {
     // split into parts, preserve quotes
     const parts = query.match(/"[^"]*"|\S+/g) || [];
 
@@ -47,10 +47,11 @@
       .join(" ");
 
   // determine if element should show up in results based on query
-  const elementMatches = (element, { terms, phrases, tags }) => {
+  const elementMatches = (element, { terms, phrases, tags }, supportTags) => {
     // tag elements within element
-    const tagElements = [...element.querySelectorAll(".tag")];
-
+    const tagElements = supportTags
+      ? [...element.querySelectorAll(".tag")]
+      : [];
     // check if text content exists in element
     const hasText = (string) =>
       (
@@ -73,7 +74,7 @@
   };
 
   // loop through elements, hide/show based on query, and return results info
-  const filterElements = (parts) => {
+  const filterElements = (parts, supportTags) => {
     let elements = document.querySelectorAll(elementSelector);
 
     // results info
@@ -83,7 +84,7 @@
 
     // filter elements
     for (const element of elements) {
-      if (elementMatches(element, parts)) {
+      if (elementMatches(element, parts, supportTags)) {
         element.style.display = "";
         x++;
       } else element.style.display = "none";
@@ -136,7 +137,6 @@
 
       // info template
       let info = "";
-      info += `Showing ${x.toLocaleString()} of ${n.toLocaleString()} results<br>`;
       info += "<a href='./'>Clear search</a>";
 
       // set info HTML string
@@ -162,11 +162,14 @@
 
   // run search with query
   const runSearch = (query = "") => {
-    const parts = splitQuery(query);
-    const [x, n] = filterElements(parts);
+    const supportTags =
+      document.querySelector(searchBoxSelector)?.dataset.supportTags ===
+      "true";
+    const parts = splitQuery(query, supportTags);
+    const [x, n] = filterElements(parts, supportTags);
     updateSearchBox(query);
     updateInfoBox(query, x, n);
-    updateTags(query);
+    updateTags(query, supportTags);
     highlightMatches(parts);
   };
 
@@ -208,8 +211,16 @@
     updateUrl();
   };
 
+  // when user clicks on tag
+  window.onTagClick = (tag) => {
+    const query = `${tag}`;
+    runSearch(query);
+    updateUrl(query);
+  };
+
   // after page loads
   window.addEventListener("load", searchFromUrl);
   // after tags load
   window.addEventListener("tagsfetched", searchFromUrl);
+
 }

@@ -1,6 +1,8 @@
 section {
-  padding: 40px max(40px, (100% - 1000px) / 2);
+  padding: 40px max(40px, (100% - 900px) / 2);
   transition: background var(--transition), color var(--transition);
+  border-radius: 8px;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
 }
 
 section[data-size=wide] {
@@ -18,6 +20,9 @@ section[data-size=full] > * {
 
 section[data-size=full] img {
   border-radius: 0;
+  width: 100% !important;
+  height: auto !important;
+  display: block;
 }
 
 main > section:last-of-type {
@@ -25,11 +30,11 @@ main > section:last-of-type {
 }
 
 main > section:nth-of-type(odd) {
-  background: var(--background);
+  background: #f9f9f9;
 }
 
 main > section:nth-of-type(even) {
-  background: var(--background-alt);
+  background: #f1f1f1;
 }
 
 /*# sourceMappingURL=section.css.map */
