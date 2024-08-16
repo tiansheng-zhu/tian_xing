@@ -210,7 +210,7 @@
     Method for Solving Conditional Nonlinear Optimal Perturbation.png
   plugin: sources.py
   file: sources.yaml
-- id: doi:10.1007/978-3-319-08729-0_51
+- id: doi:10.1007/978-3-319-11740-9_54
   title: QoS-Aware Cloud Service Selection Based on Uncertain User Preference
   tags: Cloud Service, QoS, User Preference
   authors:
