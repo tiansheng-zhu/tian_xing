@@ -37,9 +37,30 @@ redirect_from:
 {% include list.html data="members" component="portrait" filters="role: master, group: kuroshio" %}
 {% include list.html data="members" component="portrait" filters="role: master, group: others" %}
 
-{% include section.html background="images/banner.jpg" dark=true%}
+{% include section.html background="images/banner_mountain.jpg" dark=true%}
+
+欢迎加入同济大学“人工智能+大气海洋”实验室！
+{:.center}
 
 {% include button.html icon="fa-solid fa-handshake-angle" text="加入我们" link="team" style="button" %}
+
+{% include section.html %}
+
+## 合作单位
+
+{% capture content %}
+
+[![国家气象中心](http://image.nmc.cn/assets/img/index/nmc_logo_3.png)](http://www.nmc.cn/)
+
+[![国家海洋环境预报中心](https://nmefc-obs.obs.cn-north-4.myhuaweicloud.com/CMS/nmefcLogo/logoblue.png)](https://www.nmefc.cn/)
+
+[![复旦大学大气科学研究院](https://atmsci.fudan.edu.cn/_upload/tpl/07/9f/1951/template1951/images/logo.png)](https://atmsci.fudan.edu.cn/)
+
+[![清华大学地球系统科学系](https://www.dess.tsinghua.edu.cn/images/logo.png)](https://www.dess.tsinghua.edu.cn/)
+
+{% endcapture %}
+
+{% include grid.html content=content %}
 
 {% include section.html %}
 
@@ -49,3 +70,4 @@ redirect_from:
   caption="实验室人员合影"
   width="100%"
 %}
+
