@@ -1,5 +1,5 @@
 ---
-title: 邀请函
+title: 人工智能气象应用发展研讨会邀请函
 image: images/photo6.png
 ---
 尊敬的穆斌教授:  

@@ -11,6 +11,7 @@
   publisher: European Geosciences Union
   date: '2022-05-25'
   link: https://gmd.copernicus.org/articles/15/4105/2022/
+  tags: ENSO, Prediction
   image: https://gmd.copernicus.org/articles/15/4105/2022/gmd-15-4105-2022-avatar-web.png
   plugin: sources.py
   file: sources.yaml
@@ -26,6 +27,7 @@
   publisher: European Geosciences Union
   date: '2021-11-17'
   link: https://gmd.copernicus.org/articles/14/6977/2021/
+  tags: ENSO, deep learning, Forecast Model
   image: https://gmd.copernicus.org/articles/14/6977/2021/gmd-14-6977-2021-avatar-thumb150.png
   plugin: sources.py
   file: sources.yaml
@@ -40,6 +42,7 @@
   publisher: Springer Link
   date: '2022-01-29'
   link: https://link.springer.com/article/10.1007/s00500-021-06639-8
+  tags: ENSO, intelligent algorithm
   image: https://media.springernature.com/lw685/springer-static/image/art%3A10.1007%2Fs00500-021-06639-8/MediaObjects/500_2021_6639_Fig1_HTML.png?as=webp
   plugin: sources.py
   file: sources.yaml
@@ -54,6 +57,7 @@
   publisher: Wiley
   date: '2022-04-15'
   link: https://onlinelibrary.wiley.com/doi/10.1155/2022/6141966
+  tags: ENSO, typhoon, Machine Learning
   image: https://onlinelibrary.wiley.com/cms/asset/614882d6-a3c1-4c8b-834a-5003f3faba0f/cone6141966-fig-0004-m.jpg
   plugin: sources.py
   file: sources.yaml
@@ -69,6 +73,7 @@
   publisher: European Geosciences Union
   date: '2020-07-01'
   link: https://npg.copernicus.org/preprints/npg-2020-27/
+  tags: ENSO, CNOP
   image: https://onlinelibrary.wiley.com/cms/asset/782d5b32-7595-46c5-9419-ee3c23cef6b3/scpr3215039-fig-0002-m.png
   plugin: sources.py
   file: sources.yaml
@@ -87,6 +92,7 @@
   publisher: Journal of Tropical Meteorology
   date: '2022-06-10'
   link: https://jtm.itmm.org.cn/en/article/doi/10.46267/j.1006-8775.2022.010
+  tags: ENSO, typhoon, CNOP
   image: https://jtm.itmm.org.cn/fileRDQXXB_EN/journal/article/rdqxxben/2022/2/jotm-28-2-121-2.jpg
   plugin: sources.py
   file: sources.yaml
@@ -101,6 +107,169 @@
   publisher: Multidisciplinary Digital Publishing Institute
   date: '2021-03-04'
   link: https://www.mdpi.com/1999-4893/14/3/83
+  tags: typhoon, Intensity Forecasting
   image: https://www.mdpi.com/algorithms/algorithms-14-00083/article_deploy/html/images/algorithms-14-00083-g010-550.jpg
+  plugin: sources.py
+  file: sources.yaml
+- id: doi:10.1109/ICCSNT.2013.6967098
+  title: Code parallel refactoring of the Zebiak-Cane model based on JASMIN
+  authors:
+  - Hongyu Li
+  - Jiachuan Qin
+  - Shijin Yuan
+  - Jie Bian
+  publisher: IEEE
+  date: '2014-12-01'
+  link: https://ieeexplore.ieee.org/document/6967098
+  tags: JASMIN, Zebiak-Cane model, Parallel Computing
+  image: images/research/201310_Code parallel refactoring of the Zebiak-Cane model
+    based on JASMIN.png
+  plugin: sources.py
+  file: sources.yaml
+- id: doi:10.1109/HPCC.and.EUC.2013.193
+  title: 'ACStack: Adaptive Composite Stack for Adjoint Models in Code Optimization
+
+    '
+  authors:
+  - Hongyu Li
+  - Weiyu Zhou
+  - Shijin Yuan
+  - Shicheng Wen
+  publisher: IEEE
+  date: '2014-06-12'
+  link: https://ieeexplore.ieee.org/document/6825546
+  tags: Adjoint Model, Code Optimization, Numerical Weather Forecasting
+  image: images/research/201311_ACStack  Adaptive composite stack for adjoint models
+    in code optimization.png
+  plugin: sources.py
+  file: sources.yaml
+- id: doi:10.1177/1094342013495096
+  title: 'An optimization framework for adjoint-based climate simulations: A case
+    study of the Zebiak-Cane model
+
+    '
+  authors:
+  - Shijin Yuan
+  - Shicheng Wen
+  - Qin Liu
+  publisher: Sage Journals
+  date: '2013-07-11'
+  link: https://doi.org/10.1177/1094342013495096
+  tags: Adjoint-based Simulations, Climate Simulations, Zebiak-Cane model
+  image: images/research/201405_An optimization framework for adjoint-based climate
+    simulations A case study of the Zebiak-Cane model, International Journal of High
+    Performance Computing Applications.png
+  plugin: sources.py
+  file: sources.yaml
+- id: doi:10.1109/HPCC.and.EUC.2013.134
+  title: Parallel Optimization of the MM5 Adjoint Model
+  authors:
+  - Hongyu Li
+  - Jie Bian
+  - Shijin Yuan
+  - Jiachuan Qin
+  publisher: IEEE
+  date: '2014-06-12'
+  link: https://ieeexplore.ieee.org/document/6832016/metrics#metrics
+  tags: MM5, Adjoint Model, Parallel Computing
+  image: images/research/201311_Parallel Optimization of the MM5 Adjoint Model.png
+  plugin: sources.py
+  file: sources.yaml
+- id: doi:10.1007/978-3-319-09339-0_12
+  title: Orthogonal Neighborhood Preservation Projection Based Method for Solving
+    CNOP
+  authors:
+  - Bin Mu
+  - Shicheng Wen
+  - Shijin Yuan
+  - Hongyu Li
+  publisher: Springer
+  date: '2014-08-01'
+  link: https://link.springer.com/chapter/10.1007/978-3-319-09333-8_14
+  tags: CNOP, Numerical Models, Adjoint-based Method
+  image: images/research/201408_Orthogonal Neighborhood Preservation Projection Based
+    Method for Solving CNOP.png
+  plugin: sources.py
+  file: sources.yaml
+- id: doi:10.1007/978-3-319-11194-0_58
+  title: 'SAEP: Simulated Annealing Based Ensemble Projecting Method for Solving Conditional
+    Nonlinear Optimal Perturbation
+
+    '
+  authors:
+  - Shicheng Wen
+  - Shijin Yuan
+  - Bin Mu
+  - Hongyu Li
+  - Lei Chen
+  publisher: Springer
+  date: '2014-08-02'
+  link: https://link.springer.com/chapter/10.1007/978-3-319-11197-1_51
+  tags: CNOP, Simulated Annealing, Nonlinear Perturbation
+  image: images/research/201408_SAEP Simulated Annealing Based Ensemble Projecting
+    Method for Solving Conditional Nonlinear Optimal Perturbation.png
+  plugin: sources.py
+  file: sources.yaml
+- id: doi:10.1007/978-3-319-11740-9_54
+  title: QoS-Aware Cloud Service Selection Based on Uncertain User Preference
+  authors:
+  - Bin Mu
+  - Su Li
+  - Shijin Yuan
+  publisher: Springer
+  date: '2014-10-01'
+  link: https://link.springer.com/chapter/10.1007/978-3-319-11740-9_54
+  tags: Cloud Service, QoS, User Preference
+  image: images/research/201410_QoS-Aware Cloud Service Selection Based on Uncertain
+    User Preference.png
+  plugin: sources.py
+  file: sources.yaml
+- id: doi:10.1109/CEC.2015.7257067
+  title: 'PCGD: Principal components-based great deluge method for solving CNOP
+
+    '
+  authors:
+  - Shicheng Wen
+  - Shijin Yuan
+  - Bin Mu
+  - Hongyu Li
+  - Juhui Ren
+  publisher: IEEE
+  date: '2015-09-14'
+  link: https://ieeexplore.ieee.org/document/7257067
+  tags: CNOP, Principal Components, Great Deluge Method
+  image: images/research/201505_PCGD Principal components-based great deluge method
+    for solving CNOP.png
+  plugin: sources.py
+  file: sources.yaml
+- id: doi:10.1109/ICWS.2015.83
+  title: User-QoS-Based Web Service Clustering for QoS Prediction
+  authors:
+  - Fuxin Chen
+  - Shijin Yuan
+  - Bin Mu
+  publisher: IEEE
+  date: '2015-08-17'
+  link: https://ieeexplore.ieee.org/document/7195618
+  tags: QoS, Web Service, Clustering
+  image: images/research/201506_User-QoS-based Web Service Clustering for QoS Prediction.png
+  plugin: sources.py
+  file: sources.yaml
+- id: doi:10.1109/IJCNN.2015.7280522
+  title: 'PCAGA: Principal component analysis based genetic algorithm for solving
+    conditional nonlinear optimal perturbation
+
+    '
+  authors:
+  - Bin Mu
+  - Linlin Zhang
+  - Shijin Yuan
+  - Hongyu Li
+  publisher: IEEE
+  date: '2015-10-01'
+  link: https://ieeexplore.ieee.org/document/7280522
+  tags: CNOP, Genetic Algorithm, Principal Component Analysis
+  image: images/research/201507_PCAGA Principal Component Analysis Based Genetic Algorithm
+    for Solving Conditional Nonlinear Optimal Perturbation.png
   plugin: sources.py
   file: sources.yaml

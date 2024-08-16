@@ -1,9 +1,9 @@
-<div class="search-box">
+<div class="search-box" data-support-tags="{{ include.support_tags | default: false }}">
   <input
     type="text"
     class="search-input"
     oninput="onSearchInput(this)"
-    placeholder="Search items on this page"
+    placeholder="搜索页面内容"
   />
   <button
     disabled

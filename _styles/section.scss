@@ -1,12 +1,16 @@
 ---
 ---
 
-$page: 1000px;
+$page: 900px;
 $padding: 40px;
+$background-light: #f9f9f9;
+$background-dark: #f1f1f1;
 
 section {
   padding: $padding max($padding, calc((100% - $page) / 2));
   transition: background var(--transition), color var(--transition);
+  border-radius: 8px;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
 }
 
 section[data-size="wide"] {
@@ -24,6 +28,9 @@ section[data-size="full"] > * {
 
 section[data-size="full"] img {
   border-radius: 0;
+  width: 100% !important;
+  height: auto !important;
+  display: block;
 }
 
 main > section:last-of-type {
@@ -31,9 +38,9 @@ main > section:last-of-type {
 }
 
 main > section:nth-of-type(odd) {
-  background: var(--background);
+  background: $background-light; // 奇数 section 的背景颜色
 }
 
 main > section:nth-of-type(even) {
-  background: var(--background-alt);
+  background: $background-dark;
 }

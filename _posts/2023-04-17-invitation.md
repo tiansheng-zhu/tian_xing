@@ -1,5 +1,5 @@
 ---
-title: 邀请函
+title: 人工智能的气象应用研讨会邀请函
 image: images/photo8.png
 ---
 
