@@ -31,29 +31,29 @@
   include grid.html
   style="square"
 
-  image1="images/research_topics/topic-monitoring.jpeg"
+  image1="images/research_topics/topic-high-temperature.png"
   link1=""
-  tooltip1="Ecological monitoring"
+  tooltip1="高温热浪"
 
-  image2="images/research_topics/topic-seafood.jpeg"
+  image2="images/research_topics/topic-precipitation.png"
   link2=""
-  tooltip2="Sustainable seafood"
+  tooltip2="降水"
 
-  image3="images/research_topics/topic-extreme.jpeg"
+  image3="images/research_topics/topic-typhoon.png"
   link3=""
-  tooltip3="Extreme events"
+  tooltip3="台风"
 
-  image4="images/research_topics/topic-ses.jpeg"
+  image4="images/research_topics/topic-NAO.png"
   link4=""
-  tooltip4="Socio-ecological dynamics"
+  tooltip4="北大西洋涛动（NAO）"
   
-  image5="images/research_topics/topic-spatial.jpeg"
+  image5="images/research_topics/topic-Arctic-sea-ice.png"
   link5=""
-  tooltip5="Spatial ecology"
+  tooltip5="北极海冰"
   
-  image6="images/research_topics/topic-bioed.jpeg"
+  image6="images/research_topics/topic-ENSO.png"
   link6=""
-  tooltip6="Biology education research"
+  tooltip6="厄尔尼诺-南方涛动（ENSO）"
 %}
 
 {% include section.html %}
