@@ -1,6 +1,6 @@
 - id: doi:10.5194/gmd-15-4105-2022
   title: Simulation, precursor analysis and targeted observation sensitive area identification for two types of ENSO using ENSO-MC v1.0
-  tags: ENSO, Precursor Analysis
+  tags: ENSO, Prediction
   authors:
     - Bin Mu
     - Yuehan Cui
@@ -106,3 +106,137 @@
   date: '2021-03-04'
   link: https://www.mdpi.com/1999-4893/14/3/83
   image: https://www.mdpi.com/algorithms/algorithms-14-00083/article_deploy/html/images/algorithms-14-00083-g010-550.jpg
+
+- id: doi:10.1109/ICCSNT.2013.6967098
+  title: Code parallel refactoring of the Zebiak-Cane model based on JASMIN
+  tags: JASMIN, Zebiak-Cane model, Parallel Computing
+  authors:
+    - Hongyu Li
+    - Jiachuan Qin
+    - Shijin Yuan
+    - Jie Bian
+  publisher: IEEE
+  date: '2014-12-01'
+  link: https://ieeexplore.ieee.org/document/6967098
+  image: images/research/201310_Code parallel refactoring of the Zebiak-Cane model based on JASMIN.png
+
+- id: doi:10.1109/HPCC.and.EUC.2013.193
+  title: >
+    ACStack: Adaptive Composite Stack for Adjoint Models in Code Optimization
+  tags: Adjoint Model, Code Optimization, Numerical Weather Forecasting
+  authors:
+    - Hongyu Li
+    - Weiyu Zhou
+    - Shijin Yuan
+    - Shicheng Wen
+  publisher: IEEE
+  date: '2014-06-12'
+  link: https://ieeexplore.ieee.org/document/6825546
+  image: images/research/201311_ACStack  Adaptive composite stack for adjoint models in code optimization.png
+
+- id: doi:10.1177/1094342013495096
+  title: >
+    An optimization framework for adjoint-based climate simulations: A case study of the Zebiak-Cane model
+  tags: Adjoint-based Simulations, Climate Simulations, Zebiak-Cane model
+  authors:
+    - Shijin Yuan
+    - Shicheng Wen
+    - Qin Liu
+  publisher: Sage Journals
+  date: '2013-07-11'
+  link: https://doi.org/10.1177/1094342013495096
+  image: images/research/201405_An optimization framework for adjoint-based climate simulations A case study of the Zebiak-Cane model, International Journal of High Performance Computing Applications.png
+
+- id: doi:10.1109/HPCC.and.EUC.2013.134
+  title: Parallel Optimization of the MM5 Adjoint Model
+  tags: MM5, Adjoint Model, Parallel Computing
+  authors:
+    - Hongyu Li
+    - Jie Bian
+    - Shijin Yuan
+    - Jiachuan Qin
+  publisher: IEEE
+  date: '2014-06-12'
+  link: https://ieeexplore.ieee.org/document/6832016/metrics#metrics
+  image: images/research/201311_Parallel Optimization of the MM5 Adjoint Model.png
+
+- id: doi:10.1007/978-3-319-09339-0_12
+  title: Orthogonal Neighborhood Preservation Projection Based Method for Solving CNOP
+  tags: CNOP, Numerical Models, Adjoint-based Method
+  authors:
+    - Bin Mu
+    - Shicheng Wen
+    - Shijin Yuan
+    - Hongyu Li
+  publisher: Springer
+  date: '2014-08-01'
+  link: https://link.springer.com/chapter/10.1007/978-3-319-09333-8_14
+  image: images/research/201408_Orthogonal Neighborhood Preservation Projection Based Method for Solving CNOP.png
+
+- id: doi:10.1007/978-3-319-11194-0_58
+  title: >
+    SAEP: Simulated Annealing Based Ensemble Projecting Method for Solving Conditional Nonlinear Optimal Perturbation
+  tags: CNOP, Simulated Annealing, Nonlinear Perturbation
+  authors:
+    - Shicheng Wen
+    - Shijin Yuan
+    - Bin Mu
+    - Hongyu Li
+    - Lei Chen
+  publisher: Springer
+  date: '2014-08-02'
+  link: https://link.springer.com/chapter/10.1007/978-3-319-11197-1_51
+  image: images/research/201408_SAEP Simulated Annealing Based Ensemble Projecting Method for Solving Conditional Nonlinear Optimal Perturbation.png
+
+- id: doi:10.1007/978-3-319-11740-9_54
+  title: QoS-Aware Cloud Service Selection Based on Uncertain User Preference
+  tags: Cloud Service, QoS, User Preference
+  authors:
+    - Bin Mu
+    - Su Li
+    - Shijin Yuan
+  publisher: Springer
+  date: '2014-10-01'
+  link: https://link.springer.com/chapter/10.1007/978-3-319-11740-9_54
+  image: images/research/201410_QoS-Aware Cloud Service Selection Based on Uncertain User Preference.png
+
+- id: doi:10.1109/CEC.2015.7257067
+  title: >
+    PCGD: Principal components-based great deluge method for solving CNOP
+  tags: CNOP, Principal Components, Great Deluge Method
+  authors:
+    - Shicheng Wen
+    - Shijin Yuan
+    - Bin Mu
+    - Hongyu Li
+    - Juhui Ren
+  publisher: IEEE
+  date: '2015-09-14'
+  link: https://ieeexplore.ieee.org/document/7257067
+  image: images/research/201505_PCGD Principal components-based great deluge method for solving CNOP.png
+
+- id: doi:10.1109/ICWS.2015.83
+  title: User-QoS-Based Web Service Clustering for QoS Prediction
+  tags: QoS, Web Service, Clustering
+  authors:
+    - Fuxin Chen
+    - Shijin Yuan
+    - Bin Mu
+  publisher: IEEE
+  date: '2015-08-17'
+  link: https://ieeexplore.ieee.org/document/7195618
+  image: images/research/201506_User-QoS-based Web Service Clustering for QoS Prediction.png
+
+- id: doi:10.1109/IJCNN.2015.7280522
+  title: >
+    PCAGA: Principal component analysis based genetic algorithm for solving conditional nonlinear optimal perturbation
+  tags: CNOP, Genetic Algorithm, Principal Component Analysis
+  authors:
+    - Bin Mu
+    - Linlin Zhang
+    - Shijin Yuan
+    - Hongyu Li
+  publisher: IEEE
+  date: '2015-10-01'
+  link: https://ieeexplore.ieee.org/document/7280522
+  image: images/research/201507_PCAGA Principal Component Analysis Based Genetic Algorithm for Solving Conditional Nonlinear Optimal Perturbation.png
