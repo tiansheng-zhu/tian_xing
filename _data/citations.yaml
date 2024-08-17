@@ -584,7 +584,6 @@
     Causal-Inferred Predictors Selection
 
     '
-  tags: Red Tide, Deep Learning, Causal Inference
   authors:
   - Bin Mu
   - Bo Qin
@@ -594,6 +593,7 @@
   publisher: IEEE
   date: '2023-03-01'
   link: https://doi.org/10.1109/LGRS.2023.3250642
+  tags: Red Tide, Deep Learning, Causal Inference
   image: images/research/202303_PIRT A Physics-informed Red Tide Deep Learning Forecast
     Model Considering Causal-inferred Predictors Selection.png
   plugin: sources.py
@@ -603,7 +603,6 @@
     Coupled Models and Conditional Nonlinear Optimal Perturbation Method
 
     '
-  tags: SST, SL, CNOP
   authors:
   - Bin Mu
   - Xiaoyun Qin
@@ -612,6 +611,7 @@
   publisher: MDPI
   date: '2023-04-24'
   link: https://doi.org/10.3390/jmse11050910
+  tags: SST, CNOP
   image: images/research/202304_Error Evolutions and Analyses on Joint Effects of
     SST and SL via Intermediate Coupled Models and Conditional Nonlinear Optimal Perturbation
     Method.png
@@ -622,7 +622,6 @@
     nonlinear optimal perturbation
 
     '
-  tags: Dimension Shifting, CNOP, Intelligent Algorithm
   authors:
   - Shijin Yuan
   - Yaxuan Liu
@@ -631,6 +630,7 @@
   publisher: Elsevier
   date: '2023-07-01'
   link: https://doi.org/10.1016/j.cageo.2023.105375
+  tags: Dimension Shifting, CNOP, Intelligent Algorithm
   image: images/research/202307_Dimension shifting based intelligent algorithm framework
     to solve conditional nonlinear optimal perturbation.png
   plugin: sources.py
@@ -640,7 +640,6 @@
     with deep learning
 
     '
-  tags: Arctic Sea Ice, Deep Learning, IceTFT
   authors:
   - Bin Mu
   - Xiaodan Luo
@@ -649,6 +648,7 @@
   publisher: European Geosciences Union
   date: '2023-08-18'
   link: https://doi.org/10.5194/gmd-16-4677-2023
+  tags: Arctic Sea Ice, Deep Learning, IceTFT
   image: images/research/202308_IceTFT v1.0.0 Interpretable Long-Term Prediction of
     Arctic Sea Ice Extent with Deep Learning.png
   plugin: sources.py
@@ -656,7 +656,6 @@
 - id: doi:10.1016/j.aosl.2023.100407
   title: "A generative adversarial network\u2013based unified model integrating bias\
     \ correction and downscaling for global SST\n"
-  tags: SST, GAN, Bias Correction, Downscaling
   authors:
   - Shijin Yuan
   - Xin Feng
@@ -667,6 +666,7 @@
   publisher: Atmospheric and Oceanic Science Letters
   date: '2024-01-31'
   link: https://doi.org/10.1016/j.aosl.2023.100407
+  tags: SST, GAN, Bias Correction, Downscaling
   image: images/research/202401_A GAN-based Unified Model Integrating Bias Correction
     and Downscaling for Global SST.png
   plugin: sources.py
@@ -676,7 +676,6 @@
     sub-modules based on incremental learning and its application
 
     '
-  tags: Earth System Models, AI, Incremental Learning, Sub-modules Replacement
   authors:
   - Bin Mu
   - Zi-Jun Zhao
@@ -687,6 +686,7 @@
   publisher: Atmospheric Research
   date: '2024-06-01'
   link: https://doi.org/10.1016/j.atmosres.2024.107306
+  tags: AI, Incremental Learning
   image: images/research/202402_Developing intelligent Earth System Models An AI framework
     for replacing sub-modules based on incremental learning and its application.png
   plugin: sources.py
@@ -696,7 +696,6 @@
     towards MITgcm
 
     '
-  tags: Arctic Sea Ice, Deep Learning, Bias Correction, MITgcm
   authors:
   - Shijin Yuan
   - Shichen Zhu
@@ -705,6 +704,7 @@
   publisher: Ocean Modelling
   date: '2024-04-01'
   link: https://doi.org/10.1016/j.ocemod.2024.102326
+  tags: Arctic Sea Ice, Deep Learning
   image: images/research/202404_A deep learning-based bias correction model for Arctic
     sea ice concentration towards MITgcm.png
   plugin: sources.py
@@ -714,7 +714,6 @@
     Sensitive Area Identification of UKT Seasonal Reduction
 
     '
-  tags: UKT, Kuroshio Transport
   authors:
   - Bin Mu
   - Yifan Yang-Hu
@@ -723,6 +722,7 @@
   publisher: Ocean Modelling
   date: '2024-06-01'
   link: https://doi.org/10.1016/j.ocemod.2024.102344
+  tags: UKT, Kuroshio Transport
   image: images/research/202406_Multivariate Upstream Kuroshio Transport (UKT) prediction
     and targeted observation sensitive area identification of UKT seasonal reduction.png
   plugin: sources.py
@@ -732,7 +732,6 @@
     its interpretability analysis
 
     '
-  tags: Deep Learning, Model Interpretability, Prediction
   authors:
   - Bin Mu
   - Xin Wang
@@ -744,6 +743,7 @@
   publisher: Springer
   date: '2024-08-02'
   link: https://doi.org/10.1007/s11430-023-1383-6
+  tags: Deep Learning, Model Interpretability, Prediction
   image: images/research/202407_A deep learning-based global tropical cyclogenesis
     prediction model and its interpretability analysis.png
   plugin: sources.py
