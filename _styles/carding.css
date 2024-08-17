@@ -97,7 +97,7 @@
   /* 允许换行 */
   justify-content: space-between;
   /* 卡片之间平均分配空间 */
-  gap: 12px;
+  gap: 15px;
   margin-bottom: -20px;
 }
 
