@@ -2,68 +2,68 @@
   group: conference
   image: images/photo4.png
   link: https://tiansheng-zhu.github.io/tian_xing/2023/11/08/invitation.html
-  description: 邀请袁时金教授参加并在2023年11月16-17日于云南大理召开的“2023年气候预测与气候应用技术论坛”中作特邀报告。
+  description: 
   date: 2023-11-08
 
 - title: 人工智能气象应用发展研讨会邀请函
   group: conference
   image: images/photo6.png
   link: https://tiansheng-zhu.github.io/tian_xing/2023/05/09/invitation.html
-  description: 邀请穆斌教授于2023年5月18日参加在北京召开的人工智能气象应用发展研讨会并在大会上作相关报告。
+  description: 
   date: 2023-05-09
 
 - title: 关于召开“全球与区域气候预测及其生态效应”研讨会通知
   group: conference
   image: images/photo7.png
   link: https://tiansheng-zhu.github.io/tian_xing/2023/04/27/notice.html
-  description: 通知各有关单位于2023年5月6日在珠海召开研讨会，围绕“全球与区域气候预测及其生态效应”进行讨论。
+  description: 
   date: 2023-04-27
 
 - title: 关于召开“2023年春季厄尔尼诺及气候预测会商”的通知 
   group: conference
   image: images/photo9.png
   link: https://tiansheng-zhu.github.io/tian_xing/2023/02/22/notice.html
-  description: 通知各有关单位于2023年3月15日在河海大学召开“2023年春季厄尔尼诺及气候预测会商”会议，邀请相关领域的专家参与。
+  description: 
   date: 2023-02-22
 
 - title: 关于召开“2022年春夏季厄尔尼诺及气候预测会商”的通知 
   group: conference
   image: images/photo10.png
   link: https://tiansheng-zhu.github.io/tian_xing/2022/03/02/notice.html
-  description: 通知各有关单位于2022年3月17日上午8:30以线上/线下结合方式召开“2022年春季厄尔尼诺及气候预测会商”会议。
+  description: 
   date: 2022-03-02
 
 - title: 人工智能新技术在台风预北务中的应用 
   group: report
   image: images/photo1.png
   link: https://tiansheng-zhu.github.io/tian_xing/2024/01/10/invitation.html
-  description: 两场关于人工智能在台风监测及预报中的应用报告在2024年1月10日上午9:00-11:30举行，并邀请穆斌教授做报告。
+  description: 
   date: 2024-01-10
 
 - title: 辐射参数化方案的AI模型及与WRF模式的集成 
   group: report
   image: images/photo2.png
   link: https://tiansheng-zhu.github.io/tian_xing/2024/01/09/report.html
-  description: 袁时金教授于2024年1月9日下午两点在同济大学主楼9层会议室作“辐射参数化方案的AI模型及与WRF模式的集成”报告。
+  description: 
   date: 2024-01-09
 
 - title: 全球天气预报大模型Weaformer 
   group: report
   image: images/photo3.png
   link: https://tiansheng-zhu.github.io/tian_xing/2024/01/09/invitation.html
-  description: 袁时金教授将于2024年1月9日上午9:00在气象信息中心311及线上作关于“全球天气预报大模型Weaformer”的报告。
+  description: 
   date: 2024-01-09
 
 - title: 人工智能气象应用发展研讨会日程 
   group: report
   image: images/photo5.png
   link: https://tiansheng-zhu.github.io/tian_xing/2023/05/18/notice.html
-  description: 2023年5月18日举行的人工智能气象应用发展研讨会日程安排，包括会议时间、地点、参会人员、以及报告内容等。
+  description: 
   date: 2023-05-18
 
 - title: 人工智能的气象应用研讨会邀请函 
   group: report
   image: images/photo8.png
   link: https://tiansheng-zhu.github.io/tian_xing/2023/04/17/invitation.html
-  description: 邀请袁时金专家于2023年4月23日-25日在长沙国防科技大学气象海洋学院参加“人工智能的气象应用研讨会”作特邀报告。
+  description: 
   date: 2023-04-17
