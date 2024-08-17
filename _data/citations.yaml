@@ -117,7 +117,6 @@
   file: sources.yaml
 - id: doi:10.1109/ICCSNT.2013.6967098
   title: Code parallel refactoring of the Zebiak-Cane model based on JASMIN
-  tags: JASMIN, Zebiak-Cane model, Parallel Computing
   authors:
   - Hongyu Li
   - Jiachuan Qin
@@ -126,6 +125,7 @@
   publisher: IEEE
   date: '2014-12-01'
   link: https://ieeexplore.ieee.org/document/6967098
+  tags: JASMIN, Zebiak-Cane model, Parallel Computing
   image: images/research/201310_Code parallel refactoring of the Zebiak-Cane model
     based on JASMIN.png
   plugin: sources.py
@@ -134,7 +134,6 @@
   title: 'ACStack: Adaptive Composite Stack for Adjoint Models in Code Optimization
 
     '
-  tags: Adjoint Model, Code Optimization, Numerical Weather Forecasting
   authors:
   - Hongyu Li
   - Weiyu Zhou
@@ -143,6 +142,7 @@
   publisher: IEEE
   date: '2014-06-12'
   link: https://ieeexplore.ieee.org/document/6825546
+  tags: Adjoint Model, Code Optimization, Numerical Weather Forecasting
   image: images/research/201311_ACStack  Adaptive composite stack for adjoint models
     in code optimization.png
   plugin: sources.py
@@ -152,7 +152,6 @@
     study of the Zebiak-Cane model
 
     '
-  tags: Adjoint-based Simulations, Climate Simulations, Zebiak-Cane model
   authors:
   - Shijin Yuan
   - Shicheng Wen
@@ -160,6 +159,7 @@
   publisher: Sage Journals
   date: '2013-07-11'
   link: https://doi.org/10.1177/1094342013495096
+  tags: Adjoint-based Simulations, Climate Simulations, Zebiak-Cane model
   image: images/research/201405_An optimization framework for adjoint-based climate
     simulations A case study of the Zebiak-Cane model, International Journal of High
     Performance Computing Applications.png
@@ -167,7 +167,6 @@
   file: sources.yaml
 - id: doi:10.1109/HPCC.and.EUC.2013.134
   title: Parallel Optimization of the MM5 Adjoint Model
-  tags: MM5, Adjoint Model, Parallel Computing
   authors:
   - Hongyu Li
   - Jie Bian
@@ -176,13 +175,13 @@
   publisher: IEEE
   date: '2014-06-12'
   link: https://ieeexplore.ieee.org/document/6832016/metrics#metrics
+  tags: MM5, Adjoint Model, Parallel Computing
   image: images/research/201311_Parallel Optimization of the MM5 Adjoint Model.png
   plugin: sources.py
   file: sources.yaml
 - id: doi:10.1007/978-3-319-09339-0_12
   title: Orthogonal Neighborhood Preservation Projection Based Method for Solving
     CNOP
-  tags: CNOP, Numerical Models, Adjoint-based Method
   authors:
   - Bin Mu
   - Shicheng Wen
@@ -191,6 +190,7 @@
   publisher: Springer
   date: '2014-08-01'
   link: https://link.springer.com/chapter/10.1007/978-3-319-09333-8_14
+  tags: CNOP, Numerical Models, Adjoint-based Method
   image: images/research/201408_Orthogonal Neighborhood Preservation Projection Based
     Method for Solving CNOP.png
   plugin: sources.py
@@ -200,7 +200,6 @@
     Nonlinear Optimal Perturbation
 
     '
-  tags: CNOP, Simulated Annealing, Nonlinear Perturbation
   authors:
   - Shicheng Wen
   - Shijin Yuan
@@ -210,13 +209,13 @@
   publisher: Springer
   date: '2014-08-02'
   link: https://link.springer.com/chapter/10.1007/978-3-319-11197-1_51
+  tags: CNOP, Simulated Annealing, Nonlinear Perturbation
   image: images/research/201408_SAEP Simulated Annealing Based Ensemble Projecting
     Method for Solving Conditional Nonlinear Optimal Perturbation.png
   plugin: sources.py
   file: sources.yaml
 - id: doi:10.1007/978-3-319-11740-9_54
   title: QoS-Aware Cloud Service Selection Based on Uncertain User Preference
-  tags: Cloud Service, QoS, User Preference
   authors:
   - Bin Mu
   - Su Li
@@ -224,6 +223,7 @@
   publisher: Springer
   date: '2014-10-01'
   link: https://link.springer.com/chapter/10.1007/978-3-319-11740-9_54
+  tags: Cloud Service, QoS, User Preference
   image: images/research/201410_QoS-Aware Cloud Service Selection Based on Uncertain
     User Preference.png
   plugin: sources.py
@@ -232,7 +232,6 @@
   title: 'PCGD: Principal components-based great deluge method for solving CNOP
 
     '
-  tags: CNOP, Principal Components, Great Deluge Method
   authors:
   - Shicheng Wen
   - Shijin Yuan
@@ -242,13 +241,13 @@
   publisher: IEEE
   date: '2015-09-14'
   link: https://ieeexplore.ieee.org/document/7257067
+  tags: CNOP, Principal Components, Great Deluge Method
   image: images/research/201505_PCGD Principal components-based great deluge method
     for solving CNOP.png
   plugin: sources.py
   file: sources.yaml
 - id: doi:10.1109/ICWS.2015.83
   title: User-QoS-Based Web Service Clustering for QoS Prediction
-  tags: QoS, Web Service, Clustering
   authors:
   - Fuxin Chen
   - Shijin Yuan
@@ -256,6 +255,7 @@
   publisher: IEEE
   date: '2015-08-17'
   link: https://ieeexplore.ieee.org/document/7195618
+  tags: QoS, Web Service, Clustering
   image: images/research/201506_User-QoS-based Web Service Clustering for QoS Prediction.png
   plugin: sources.py
   file: sources.yaml
@@ -264,7 +264,6 @@
     conditional nonlinear optimal perturbation
 
     '
-  tags: CNOP, Genetic Algorithm, Principal Component Analysis
   authors:
   - Bin Mu
   - Linlin Zhang
@@ -273,6 +272,7 @@
   publisher: IEEE
   date: '2015-10-01'
   link: https://ieeexplore.ieee.org/document/7280522
+  tags: CNOP, Genetic Algorithm, Principal Component Analysis
   image: images/research/201507_PCAGA Principal Component Analysis Based Genetic Algorithm
     for Solving Conditional Nonlinear Optimal Perturbation.png
   plugin: sources.py
@@ -282,7 +282,6 @@
     for Solving Conditional Nonlinear Optimal Perturbation
 
     '
-  tags: PSO, Co-evolution, CNOP
   authors:
   - Shijin Yuan
   - Li Zhao
@@ -290,6 +289,7 @@
   publisher: Springer
   date: '2015-11-09'
   link: https://doi.org/10.1007/978-3-319-26535-3_11
+  tags: PSO, Co-evolution, CNOP
   image: images/research/201511_Parallel Cooperative Co-evolution Based Particle Swarm
     Optimization Algorithm for Solving Conditional Nonlinear Optimal Perturbation.png
   plugin: sources.py
@@ -299,7 +299,6 @@
     perturbation
 
     '
-  tags: Ensemble, Feature Extraction, CNOP
   authors:
   - Shicheng Wen
   - Shijin Yuan
@@ -308,6 +307,7 @@
   publisher: Inderscience
   date: '2015-12-01'
   link: https://doi.org/10.1504/IJCSE.2015.073494
+  tags: Ensemble, Feature Extraction, CNOP
   image: images/research/201511_Robust ensemble feature extraction for solving conditional
     nonlinear optimal perturbation.png
   plugin: sources.py
@@ -317,7 +317,6 @@
     Nonlinear Optimal Perturbation
 
     '
-  tags: MABC, CNOP, Parallel Computing
   authors:
   - Juhui Ren
   - Shijin Yuan
@@ -325,6 +324,7 @@
   publisher: IEEE
   date: '2016-12-14'
   link: https://doi.org/10.1109/HPCC-SmartCity-DSS.2016.0055
+  tags: MABC, CNOP, Parallel Computing
   image: images/research/201612_Parallel modified artificial bee colony algorithm
     for solving conditional nonlinear optimal perturbation.png
   plugin: sources.py
@@ -334,7 +334,6 @@
     on Clusters
 
     '
-  tags: PCAFP, CNOP, Parallelization
   authors:
   - Shijin Yuan
   - Mi Li
@@ -343,6 +342,7 @@
   publisher: IEEE
   date: '2016-12-14'
   link: https://doi.org/10.1109/HPCC-SmartCity-DSS.2016.0049
+  tags: PCAFP, CNOP, Parallelization
   image: images/research/201612_PCAFP for Solving CNOP in Double-Gyre Variation and
     its Parallelization on Clusters.png
   plugin: sources.py
@@ -352,7 +352,6 @@
     number strategy for solving conditional nonlinear optimal perturbation
 
     '
-  tags: dynFWA, CNOP, Parallelization
   authors:
   - Bin Mu
   - Junhui Zhao
@@ -361,6 +360,7 @@
   publisher: IEEE
   date: '2017-05-14'
   link: https://doi.org/10.1109/IJCNN.2017.7966136
+  tags: dynFWA, CNOP, Parallelization
   image: images/research/201705_Parallel Dynamic Search Fireworks Algorithm with Linearly
     Decreased Dimension Number Strategy for Solving Conditional Nonlinear Optimal
     Perturbation.png
@@ -370,7 +370,6 @@
   title: 'An improved effective approach for urban air quality forecast
 
     '
-  tags: Air Quality, Forecasting, PCA
   authors:
   - Bin Mu
   - Site Li
@@ -378,6 +377,7 @@
   publisher: IEEE
   date: '2017-07-29'
   link: https://doi.org/10.1109/FSKD.2017.8393403
+  tags: Air Quality, Forecasting, PCA
   image: images/research/201707_An improved effective approach for urban air quality
     forecast.png
   plugin: sources.py
@@ -387,7 +387,6 @@
     Nonlinear Optimal Perturbation
 
     '
-  tags: Gradient, CNOP, Optimization
   authors:
   - Bin Mu
   - Juhui Ren
@@ -395,6 +394,7 @@
   publisher: Wiley
   date: '2017-11-14'
   link: https://doi.org/10.1155/2017/3208431
+  tags: Gradient, CNOP, Optimization
   image: images/research/201711_An efficient approach based on the gradient definition
     for solving conditional nonlinear optimal perturbation.png
   plugin: sources.py
@@ -404,7 +404,6 @@
     regions of tropical cyclone adaptive observations
 
     '
-  tags: CNOP, PSO, Tropical Cyclones
   authors:
   - Linlin Zhang
   - Bin Mu
@@ -413,6 +412,7 @@
   publisher: European Geosciences Union
   date: '2018-09-13'
   link: https://doi.org/10.5194/npg-25-693-2018
+  tags: CNOP, PSO, Tropical Cyclones
   image: images/research/201809_A novel approach for solving CNOPs and its application
     in identifying sensitive regions of tropical cyclone adaptive observations.png
   plugin: sources.py
@@ -422,7 +422,6 @@
     Definition Based Method
 
     '
-  tags: CNOP, Gradient Method, Typhoon Observations
   authors:
   - Bin Mu
   - Juhui Ren
@@ -431,16 +430,16 @@
   publisher: Springer
   date: '2018-10-26'
   link: https://doi.org/10.1007/s13143-018-0068-1
+  tags: CNOP, Gradient Method, Typhoon Observations
   image: images/research/201810_Identifying Typhoon Targeted Observations Sensitive
     Areas Using the Gradient Definition Based Method.png
   plugin: sources.py
   file: sources.yaml
-- id: doi:10.1007/s00343-019-8107-8
+- id: doi:10.1007/s00343-019-7235-9
   title: 'Optimal precursors of double-gyre regime transitions with an adjoint-free
     method
 
     '
-  tags: Double-Gyre, CNOP, Adjoint-Free Method
   authors:
   - Shijin Yuan
   - Mi Li
@@ -451,6 +450,7 @@
   publisher: Springer
   date: '2019-03-25'
   link: https://link.springer.com/article/10.1007/s00343-019-7235-9
+  tags: Double-Gyre, CNOP, Adjoint-Free Method
   image: images/research/201903_Optimal precursors of double-gyre regime transitions
     with an adjoint-free method.png
   plugin: sources.py
@@ -460,7 +460,6 @@
     simulated annealing algorithm
 
     '
-  tags: CNOP-P, Parameter Sensitivity, Simulated Annealing
   authors:
   - Shijin Yuan
   - Huazhen Zhang
@@ -469,6 +468,7 @@
   publisher: Springer
   date: '2019-05-28'
   link: https://doi.org/10.1007/s00343-019-7266-2
+  tags: CNOP-P, Parameter Sensitivity, Simulated Annealing
   image: images/research/201905_CNOP-P-based parameter sensitivity for double-gyre
     variation in ROMS with simulated annealing algorithm.png
   plugin: sources.py
@@ -478,7 +478,6 @@
     Optimal Precursors of North Atlantic Oscillation
 
     '
-  tags: PCA, BFOA, NAO
   authors:
   - Bin Mu
   - Jing Li
@@ -488,14 +487,14 @@
   publisher: IEEE
   date: '2019-08-10'
   link: https://doi.org/10.1109/HPCC/SmartCity/DSS.2019.00165
+  tags: PCA, BFOA, NAO
   image: images/research/201908_Parallel PCA-Based Bacterial Foraging Optimization
     Algorithm for Identifying Optimal Precursors of North Atlantic Oscillation.png
   plugin: sources.py
   file: sources.yaml
-- id: doi:10.1109/ICElEIC49280.2020.9152317
+- id: doi:10.1109/ICEIEC49280.2020.9152317
   title: "Applying Convolutional LSTM Network to Predict El Ni\xF1o Events: Transfer\
     \ Learning from The Data of Dynamical Model and Observation\n"
-  tags: "ConvLSTM, El Ni\xF1o, Transfer Learning"
   authors:
   - Bin Mu
   - Shaoyang Ma
@@ -504,6 +503,7 @@
   publisher: IEEE
   date: '2020-07-17'
   link: https://ieeexplore.ieee.org/abstract/document/9152317
+  tags: "ConvLSTM, El Ni\xF1o, Transfer Learning"
   image: images/research/202007_Applying Convolutional LSTM Network to Predict El
     Nino Events Transfer Learning from The Data of Dynamical Model and Observation.png
   plugin: sources.py
@@ -513,7 +513,6 @@
     Pressure Using DWT-LSTM and DWT-ConvLSTM Networks
 
     '
-  tags: DWT-LSTM, ConvLSTM, NAO
   authors:
   - Bin Mu
   - Jing Li
@@ -522,6 +521,7 @@
   publisher: Wiley
   date: '2020-10-05'
   link: https://doi.org/10.1155/2020/2413041
+  tags: DWT-LSTM, ConvLSTM, NAO
   image: images/research/202010_Prediction of North Atlantic Oscillation Index Associated
     with the Sea Level Pressure Using DWT-LSTM and DWT-ConvLSTM Networks.png
   plugin: sources.py
@@ -531,7 +531,6 @@
     Correlations and Chaos of Meteorological Events
 
     '
-  tags: Climate Downscaling, Deep Learning, Meteorological Events
   authors:
   - Bin Mu
   - Bo Qin
@@ -540,6 +539,7 @@
   publisher: Wiley
   date: '2020-11-16'
   link: https://doi.org/10.1155/2020/7897824
+  tags: Climate Downscaling, Deep Learning, Meteorological Events
   image: images/research/202011_A climate downscaling deep learning model considering
     the multiscale spatial correlations and chaos of meteorological events.png
   plugin: sources.py
@@ -549,7 +549,6 @@
     GPUs
 
     '
-  tags: CESM, GPU, CUDA
   authors:
   - Shijin Yuan
   - Cheng Wang
@@ -558,6 +557,7 @@
   publisher: ACM
   date: '2021-06-09'
   link: https://doi.org/10.1145/3449301.3449334
+  tags: CESM, GPU, CUDA
   image: images/research/202011_Efficient Executions of Community Earth System Model
     onto Accelerators Using GPUs.png
   plugin: sources.py
@@ -567,7 +567,6 @@
     Teleconnection Coupler
 
     '
-  tags: ENSO, Deep Learning, Teleconnection
   authors:
   - Bin Mu
   - Bo Qin
@@ -575,6 +574,7 @@
   publisher: American Geophysical Union
   date: '2022-12-15'
   link: https://doi.org/10.1029/2022MS003132
+  tags: ENSO, Deep Learning, Teleconnection
   image: images/research/202212_ENSO-GTC ENSO Deep Learning Forecast Model with a
     Global Spatial-Temporal Teleconnection Coupler.png
   plugin: sources.py
