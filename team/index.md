@@ -56,7 +56,7 @@ redirect_from:
 
 [![复旦大学大气科学研究院](https://atmsci.fudan.edu.cn/_upload/tpl/07/9f/1951/template1951/images/logo.png)](https://atmsci.fudan.edu.cn/)
 
-[![清华大学地球系统科学系](https://www.dess.tsinghua.edu.cn/images/logo.png)](https://www.dess.tsinghua.edu./)
+[![清华大学地球系统科学系](https://www.dess.tsinghua.edu.cn/images/logo.png)](https://www.dess.tsinghua.edu.cn/)
 
 {% endcapture %}
 
