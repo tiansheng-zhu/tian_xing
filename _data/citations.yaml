@@ -579,3 +579,172 @@
     Global Spatial-Temporal Teleconnection Coupler.png
   plugin: sources.py
   file: sources.yaml
+- id: doi:10.1109/LGRS.2023.3250642
+  title: 'PIRT: A Physics-Informed Red Tide Deep Learning Forecast Model Considering
+    Causal-Inferred Predictors Selection
+
+    '
+  tags: Red Tide, Deep Learning, Causal Inference
+  authors:
+  - Bin Mu
+  - Bo Qin
+  - Shijin Yuan
+  - Xin Wang
+  - Yuxuan Chen
+  publisher: IEEE
+  date: '2023-03-01'
+  link: https://doi.org/10.1109/LGRS.2023.3250642
+  image: images/research/202303_PIRT A Physics-informed Red Tide Deep Learning Forecast
+    Model Considering Causal-inferred Predictors Selection.png
+  plugin: sources.py
+  file: sources.yaml
+- id: doi:10.3390/jmse11050910
+  title: 'Error Evolutions and Analyses on Joint Effects of SST and SL via Intermediate
+    Coupled Models and Conditional Nonlinear Optimal Perturbation Method
+
+    '
+  tags: SST, SL, CNOP
+  authors:
+  - Bin Mu
+  - Xiaoyun Qin
+  - Shijin Yuan
+  - Bo Qin
+  publisher: MDPI
+  date: '2023-04-24'
+  link: https://doi.org/10.3390/jmse11050910
+  image: images/research/202304_Error Evolutions and Analyses on Joint Effects of
+    SST and SL via Intermediate Coupled Models and Conditional Nonlinear Optimal Perturbation
+    Method.png
+  plugin: sources.py
+  file: sources.yaml
+- id: doi:10.1016/j.cageo.2023.105375
+  title: 'Dimension shifting based intelligent algorithm framework to solve conditional
+    nonlinear optimal perturbation
+
+    '
+  tags: Dimension Shifting, CNOP, Intelligent Algorithm
+  authors:
+  - Shijin Yuan
+  - Yaxuan Liu
+  - Huazhen Zhang
+  - Bin Mu
+  publisher: Elsevier
+  date: '2023-07-01'
+  link: https://doi.org/10.1016/j.cageo.2023.105375
+  image: images/research/202307_Dimension shifting based intelligent algorithm framework
+    to solve conditional nonlinear optimal perturbation.png
+  plugin: sources.py
+  file: sources.yaml
+- id: doi:10.5194/gmd-16-4677-2023
+  title: 'IceTFT v1.0.0: interpretable long-term prediction of Arctic sea ice extent
+    with deep learning
+
+    '
+  tags: Arctic Sea Ice, Deep Learning, IceTFT
+  authors:
+  - Bin Mu
+  - Xiaodan Luo
+  - Shijin Yuan
+  - Xi Liang
+  publisher: European Geosciences Union
+  date: '2023-08-18'
+  link: https://doi.org/10.5194/gmd-16-4677-2023
+  image: images/research/202308_IceTFT v1.0.0 Interpretable Long-Term Prediction of
+    Arctic Sea Ice Extent with Deep Learning.png
+  plugin: sources.py
+  file: sources.yaml
+- id: doi:10.1016/j.aosl.2023.100407
+  title: "A generative adversarial network\u2013based unified model integrating bias\
+    \ correction and downscaling for global SST\n"
+  tags: SST, GAN, Bias Correction, Downscaling
+  authors:
+  - Shijin Yuan
+  - Xin Feng
+  - Bin Mu
+  - Bo Qin
+  - Xin Wang
+  - Yuxuan Chen
+  publisher: Atmospheric and Oceanic Science Letters
+  date: '2024-01-31'
+  link: https://doi.org/10.1016/j.aosl.2023.100407
+  image: images/research/202401_A GAN-based Unified Model Integrating Bias Correction
+    and Downscaling for Global SST.png
+  plugin: sources.py
+  file: sources.yaml
+- id: doi:10.1016/j.atmosres.2024.107306
+  title: 'Developing intelligent Earth System Models: An AI framework for replacing
+    sub-modules based on incremental learning and its application
+
+    '
+  tags: Earth System Models, AI, Incremental Learning, Sub-modules Replacement
+  authors:
+  - Bin Mu
+  - Zi-Jun Zhao
+  - Shi-Jin Yuan
+  - Bo Qin
+  - Guo-Kun Dai
+  - Guan-Bo Zhou
+  publisher: Atmospheric Research
+  date: '2024-06-01'
+  link: https://doi.org/10.1016/j.atmosres.2024.107306
+  image: images/research/202402_Developing intelligent Earth System Models An AI framework
+    for replacing sub-modules based on incremental learning and its application.png
+  plugin: sources.py
+  file: sources.yaml
+- id: doi:10.1016/j.ocemod.2024.102326
+  title: 'A deep learning-based bias correction model for Arctic sea ice concentration
+    towards MITgcm
+
+    '
+  tags: Arctic Sea Ice, Deep Learning, Bias Correction, MITgcm
+  authors:
+  - Shijin Yuan
+  - Shichen Zhu
+  - Xiaodan Luo
+  - Bin Mu
+  publisher: Ocean Modelling
+  date: '2024-04-01'
+  link: https://doi.org/10.1016/j.ocemod.2024.102326
+  image: images/research/202404_A deep learning-based bias correction model for Arctic
+    sea ice concentration towards MITgcm.png
+  plugin: sources.py
+  file: sources.yaml
+- id: doi:10.1016/j.ocemod.2024.102344
+  title: 'Multivariate Upstream Kuroshio Transport (UKT) Prediction and Targeted Observation
+    Sensitive Area Identification of UKT Seasonal Reduction
+
+    '
+  tags: UKT, Kuroshio Transport
+  authors:
+  - Bin Mu
+  - Yifan Yang-Hu
+  - Bo Qin
+  - Shijin Yuan
+  publisher: Ocean Modelling
+  date: '2024-06-01'
+  link: https://doi.org/10.1016/j.ocemod.2024.102344
+  image: images/research/202406_Multivariate Upstream Kuroshio Transport (UKT) prediction
+    and targeted observation sensitive area identification of UKT seasonal reduction.png
+  plugin: sources.py
+  file: sources.yaml
+- id: doi:10.1007/s11430-023-1383-6
+  title: 'A deep learning-based global tropical cyclogenesis prediction model and
+    its interpretability analysis
+
+    '
+  tags: Deep Learning, Model Interpretability, Prediction
+  authors:
+  - Bin Mu
+  - Xin Wang
+  - Shijin Yuan
+  - Yuxuan Chen
+  - Guansong Wang
+  - Bo Qin
+  - Guanbo Zhou
+  publisher: Springer
+  date: '2024-08-02'
+  link: https://doi.org/10.1007/s11430-023-1383-6
+  image: images/research/202407_A deep learning-based global tropical cyclogenesis
+    prediction model and its interpretability analysis.png
+  plugin: sources.py
+  file: sources.yaml
