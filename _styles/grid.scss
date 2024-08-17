@@ -10,8 +10,9 @@ $one: 500px;
   grid-template-columns: repeat(var(--repeat), 1fr);
   justify-content: center;
   align-items: flex-start;
-  gap: 40px;
+  gap: 70px !important;
   margin: 40px 0;
+  max-width: 100%;
 }
 
 .grid > * {
@@ -20,6 +21,22 @@ $one: 500px;
   width: 100%;
   // max-height: 50vh;
   margin: 0 !important;
+  aspect-ratio: 1 / 1;
+}
+
+.grid[data-style="square"] {
+  align-items: center;
+
+  & > * {
+    max-width: calc((100% / var(--repeat)) - (var(--gap) * (var(--repeat) - 1) / var(--repeat)));
+  }
+
+  & img {
+    aspect-ratio: 1 / 1;
+    object-fit: cover;
+    width: 100%;
+    height: auto;
+  }
 }
 
 @media (max-width: $two) {
@@ -31,21 +48,6 @@ $one: 500px;
 @media (max-width: $one) {
   .grid {
     --repeat: 1;
-  }
-}
-
-.grid[data-style="square"] {
-  align-items: center;
-
-  & > * {
-    aspect-ratio: 1 / 1;
-  }
-
-  & img {
-    aspect-ratio: 1 / 1;
-    object-fit: cover;
-    max-width: unset;
-    max-height: unset;
   }
 }
 

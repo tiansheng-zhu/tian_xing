@@ -11,7 +11,7 @@ nav:
 
 {% include sections.html %}
 
-{% include search-box.html %}
+{% include search-box.html support_tags=false %}
 
 {% include tags.html tags=site.tags %}
 

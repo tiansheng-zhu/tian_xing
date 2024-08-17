@@ -1,6 +1,6 @@
 - id: doi:10.5194/gmd-15-4105-2022
   title: Simulation, precursor analysis and targeted observation sensitive area identification for two types of ENSO using ENSO-MC v1.0
-  tags: ENSO, Precursor Analysis
+  tags: ENSO, Prediction
   authors:
     - Bin Mu
     - Yuehan Cui
@@ -32,7 +32,7 @@
     - Huazhen Zhang
     - Yaxuan Liu
     - Bin Mu
-  publisher: Springer Link
+  publisher: Springer
   date: '2022-01-29'
   link: https://link.springer.com/article/10.1007/s00500-021-06639-8
   image: https://media.springernature.com/lw685/springer-static/image/art%3A10.1007%2Fs00500-021-06639-8/MediaObjects/500_2021_6639_Fig1_HTML.png?as=webp
@@ -106,3 +106,549 @@
   date: '2021-03-04'
   link: https://www.mdpi.com/1999-4893/14/3/83
   image: https://www.mdpi.com/algorithms/algorithms-14-00083/article_deploy/html/images/algorithms-14-00083-g010-550.jpg
+
+- id: doi:10.1109/ICCSNT.2013.6967098
+  title: Code parallel refactoring of the Zebiak-Cane model based on JASMIN
+  tags: JASMIN, Zebiak-Cane model, Parallel Computing
+  authors:
+    - Hongyu Li
+    - Jiachuan Qin
+    - Shijin Yuan
+    - Jie Bian
+  publisher: IEEE
+  date: '2014-12-01'
+  link: https://ieeexplore.ieee.org/document/6967098
+  image: images/research/201310_Code parallel refactoring of the Zebiak-Cane model based on JASMIN.png
+
+- id: doi:10.1109/HPCC.and.EUC.2013.193
+  title: >
+    ACStack: Adaptive Composite Stack for Adjoint Models in Code Optimization
+  tags: Adjoint Model, Code Optimization, Numerical Weather Forecasting
+  authors:
+    - Hongyu Li
+    - Weiyu Zhou
+    - Shijin Yuan
+    - Shicheng Wen
+  publisher: IEEE
+  date: '2014-06-12'
+  link: https://ieeexplore.ieee.org/document/6825546
+  image: images/research/201311_ACStack  Adaptive composite stack for adjoint models in code optimization.png
+
+- id: doi:10.1177/1094342013495096
+  title: >
+    An optimization framework for adjoint-based climate simulations: A case study of the Zebiak-Cane model
+  tags: Adjoint-based Simulations, Climate Simulations, Zebiak-Cane model
+  authors:
+    - Shijin Yuan
+    - Shicheng Wen
+    - Qin Liu
+  publisher: Sage Journals
+  date: '2013-07-11'
+  link: https://doi.org/10.1177/1094342013495096
+  image: images/research/201405_An optimization framework for adjoint-based climate simulations A case study of the Zebiak-Cane model, International Journal of High Performance Computing Applications.png
+
+- id: doi:10.1109/HPCC.and.EUC.2013.134
+  title: Parallel Optimization of the MM5 Adjoint Model
+  tags: MM5, Adjoint Model, Parallel Computing
+  authors:
+    - Hongyu Li
+    - Jie Bian
+    - Shijin Yuan
+    - Jiachuan Qin
+  publisher: IEEE
+  date: '2014-06-12'
+  link: https://ieeexplore.ieee.org/document/6832016/metrics#metrics
+  image: images/research/201311_Parallel Optimization of the MM5 Adjoint Model.png
+
+- id: doi:10.1007/978-3-319-09339-0_12
+  title: Orthogonal Neighborhood Preservation Projection Based Method for Solving CNOP
+  tags: CNOP, Numerical Models, Adjoint-based Method
+  authors:
+    - Bin Mu
+    - Shicheng Wen
+    - Shijin Yuan
+    - Hongyu Li
+  publisher: Springer
+  date: '2014-08-01'
+  link: https://link.springer.com/chapter/10.1007/978-3-319-09333-8_14
+  image: images/research/201408_Orthogonal Neighborhood Preservation Projection Based Method for Solving CNOP.png
+
+- id: doi:10.1007/978-3-319-11194-0_58
+  title: >
+    SAEP: Simulated Annealing Based Ensemble Projecting Method for Solving Conditional Nonlinear Optimal Perturbation
+  tags: CNOP, Simulated Annealing, Nonlinear Perturbation
+  authors:
+    - Shicheng Wen
+    - Shijin Yuan
+    - Bin Mu
+    - Hongyu Li
+    - Lei Chen
+  publisher: Springer
+  date: '2014-08-02'
+  link: https://link.springer.com/chapter/10.1007/978-3-319-11197-1_51
+  image: images/research/201408_SAEP Simulated Annealing Based Ensemble Projecting Method for Solving Conditional Nonlinear Optimal Perturbation.png
+
+- id: doi:10.1007/978-3-319-11740-9_54
+  title: QoS-Aware Cloud Service Selection Based on Uncertain User Preference
+  tags: Cloud Service, QoS, User Preference
+  authors:
+    - Bin Mu
+    - Su Li
+    - Shijin Yuan
+  publisher: Springer
+  date: '2014-10-01'
+  link: https://link.springer.com/chapter/10.1007/978-3-319-11740-9_54
+  image: images/research/201410_QoS-Aware Cloud Service Selection Based on Uncertain User Preference.png
+
+- id: doi:10.1109/CEC.2015.7257067
+  title: >
+    PCGD: Principal components-based great deluge method for solving CNOP
+  tags: CNOP, Principal Components, Great Deluge Method
+  authors:
+    - Shicheng Wen
+    - Shijin Yuan
+    - Bin Mu
+    - Hongyu Li
+    - Juhui Ren
+  publisher: IEEE
+  date: '2015-09-14'
+  link: https://ieeexplore.ieee.org/document/7257067
+  image: images/research/201505_PCGD Principal components-based great deluge method for solving CNOP.png
+
+- id: doi:10.1109/ICWS.2015.83
+  title: User-QoS-Based Web Service Clustering for QoS Prediction
+  tags: QoS, Web Service, Clustering
+  authors:
+    - Fuxin Chen
+    - Shijin Yuan
+    - Bin Mu
+  publisher: IEEE
+  date: '2015-08-17'
+  link: https://ieeexplore.ieee.org/document/7195618
+  image: images/research/201506_User-QoS-based Web Service Clustering for QoS Prediction.png
+
+- id: doi:10.1109/IJCNN.2015.7280522
+  title: >
+    PCAGA: Principal component analysis based genetic algorithm for solving conditional nonlinear optimal perturbation
+  tags: CNOP, Genetic Algorithm, Principal Component Analysis
+  authors:
+    - Bin Mu
+    - Linlin Zhang
+    - Shijin Yuan
+    - Hongyu Li
+  publisher: IEEE
+  date: '2015-10-01'
+  link: https://ieeexplore.ieee.org/document/7280522
+  image: images/research/201507_PCAGA Principal Component Analysis Based Genetic Algorithm for Solving Conditional Nonlinear Optimal Perturbation.png
+
+- id: doi:10.1007/978-3-319-26535-3_11
+  title: >
+    Parallel Cooperative Co-evolution Based Particle Swarm Optimization Algorithm for Solving Conditional Nonlinear Optimal Perturbation
+  tags: PSO, Co-evolution, CNOP
+  authors:
+    - Shijin Yuan
+    - Li Zhao
+    - Bin Mu
+  publisher: Springer
+  date: '2015-11-09'
+  link: https://doi.org/10.1007/978-3-319-26535-3_11
+  image: images/research/201511_Parallel Cooperative Co-evolution Based Particle Swarm Optimization Algorithm for Solving Conditional Nonlinear Optimal Perturbation.png
+
+- id: doi:10.1504/IJCSE.2015.073494
+  title: >
+    Robust ensemble feature extraction for solving conditional nonlinear optimal perturbation
+  tags: Ensemble, Feature Extraction, CNOP
+  authors:
+    - Shicheng Wen
+    - Shijin Yuan
+    - Hongyu Li
+    - Bin Mu
+  publisher: Inderscience
+  date: '2015-12-01'
+  link: https://doi.org/10.1504/IJCSE.2015.073494
+  image: images/research/201511_Robust ensemble feature extraction for solving conditional nonlinear optimal perturbation.png
+
+- id: doi:10.1109/HPCC-SmartCity-DSS.2016.0055
+  title: >
+    Parallel Modified Artificial Bee Colony Algorithm for Solving Conditional Nonlinear Optimal Perturbation
+  tags: MABC, CNOP, Parallel Computing
+  authors:
+    - Juhui Ren
+    - Shijin Yuan
+    - Bin Mu
+  publisher: IEEE
+  date: '2016-12-14'
+  link: https://doi.org/10.1109/HPCC-SmartCity-DSS.2016.0055
+  image: images/research/201612_Parallel modified artificial bee colony algorithm for solving conditional nonlinear optimal perturbation.png
+
+- id: doi:10.1109/HPCC-SmartCity-DSS.2016.0049
+  title: >
+    PCAFP for Solving CNOP in Double-Gyre Variation and Its Parallelization on Clusters
+  tags: PCAFP, CNOP, Parallelization
+  authors:
+    - Shijin Yuan
+    - Mi Li
+    - Bin Mu
+    - Jingpeng Wang
+  publisher: IEEE
+  date: '2016-12-14'
+  link: https://doi.org/10.1109/HPCC-SmartCity-DSS.2016.0049
+  image: images/research/201612_PCAFP for Solving CNOP in Double-Gyre Variation and its Parallelization on Clusters.png
+
+- id: doi:10.1109/IJCNN.2017.7966136
+  title: >
+    Parallel dynamic search fireworks algorithm with linearly decreased dimension number strategy for solving conditional nonlinear optimal perturbation
+  tags: dynFWA, CNOP, Parallelization
+  authors:
+    - Bin Mu
+    - Junhui Zhao
+    - Shijin Yuan
+    - Jinghao Yan
+  publisher: IEEE
+  date: '2017-05-14'
+  link: https://doi.org/10.1109/IJCNN.2017.7966136
+  image: images/research/201705_Parallel Dynamic Search Fireworks Algorithm with Linearly Decreased Dimension Number Strategy for Solving Conditional Nonlinear Optimal Perturbation.png
+
+- id: doi:10.1109/FSKD.2017.8393403
+  title: >
+    An improved effective approach for urban air quality forecast
+  tags: Air Quality, Forecasting, PCA
+  authors:
+    - Bin Mu
+    - Site Li
+    - Shijin Yuan
+  publisher: IEEE
+  date: '2017-07-29'
+  link: https://doi.org/10.1109/FSKD.2017.8393403
+  image: images/research/201707_An improved effective approach for urban air quality forecast.png
+
+- id: doi:10.1155/2017/3208431
+  title: >
+    An Efficient Approach Based on the Gradient Definition for Solving Conditional Nonlinear Optimal Perturbation
+  tags: Gradient, CNOP, Optimization
+  authors:
+    - Bin Mu
+    - Juhui Ren
+    - Shijin Yuan
+  publisher: Wiley
+  date: '2017-11-14'
+  link: https://doi.org/10.1155/2017/3208431
+  image: images/research/201711_An efficient approach based on the gradient definition for solving conditional nonlinear optimal perturbation.png
+
+- id: doi:10.5194/npg-25-693-2018
+  title: >
+    A novel approach for solving CNOPs and its application in identifying sensitive regions of tropical cyclone adaptive observations
+  tags: CNOP, PSO, Tropical Cyclones
+  authors:
+    - Linlin Zhang
+    - Bin Mu
+    - Shijin Yuan
+    - Feifan Zhou
+  publisher: European Geosciences Union
+  date: '2018-09-13'
+  link: https://doi.org/10.5194/npg-25-693-2018
+  image: images/research/201809_A novel approach for solving CNOPs and its application in identifying sensitive regions of tropical cyclone adaptive observations.png
+
+- id: doi:10.1007/s13143-018-0068-1
+  title: >
+    Identifying Typhoon Targeted Observations Sensitive Areas Using the Gradient Definition Based Method
+  tags: CNOP, Gradient Method, Typhoon Observations
+  authors:
+    - Bin Mu
+    - Juhui Ren
+    - Shijin Yuan
+    - Feifan Zhou
+  publisher: Springer
+  date: '2018-10-26'
+  link: https://doi.org/10.1007/s13143-018-0068-1
+  image: images/research/201810_Identifying Typhoon Targeted Observations Sensitive Areas Using the Gradient Definition Based Method.png
+
+- id: doi:10.1007/s00343-019-7235-9
+  title: >
+    Optimal precursors of double-gyre regime transitions with an adjoint-free method
+  tags: Double-Gyre, CNOP, Adjoint-Free Method
+  authors:
+    - Shijin Yuan
+    - Mi Li
+    - Qiang Wang
+    - Kun Zhang
+    - Huazhen Zhang
+    - Bin Mu
+  publisher: Springer
+  date: '2019-03-25'
+  link: https://link.springer.com/article/10.1007/s00343-019-7235-9
+  image: images/research/201903_Optimal precursors of double-gyre regime transitions with an adjoint-free method.png
+
+- id: doi:10.1007/s00343-019-7266-2
+  title: >
+    CNOP-P-based parameter sensitivity for double-gyre variation in ROMS with simulated annealing algorithm
+  tags: CNOP-P, Parameter Sensitivity, Simulated Annealing
+  authors:
+    - Shijin Yuan
+    - Huazhen Zhang
+    - Mi Li
+    - Bin Mu
+  publisher: Springer
+  date: '2019-05-28'
+  link: https://doi.org/10.1007/s00343-019-7266-2
+  image: images/research/201905_CNOP-P-based parameter sensitivity for double-gyre variation in ROMS with simulated annealing algorithm.png
+
+- id: doi:10.1109/HPCC/SmartCity/DSS.2019.00165
+  title: >
+    Parallel PCA-Based Bacterial Foraging Optimization Algorithm for Identifying Optimal Precursors of North Atlantic Oscillation
+  tags: PCA, BFOA, NAO
+  authors:
+    - Bin Mu
+    - Jing Li
+    - Shijin Yuan
+    - Xiaodan Luo
+    - Guokun Dai
+  publisher: IEEE
+  date: '2019-08-10'
+  link: https://doi.org/10.1109/HPCC/SmartCity/DSS.2019.00165
+  image: images/research/201908_Parallel PCA-Based Bacterial Foraging Optimization Algorithm for Identifying Optimal Precursors of North Atlantic Oscillation.png
+
+- id: doi:10.1109/ICEIEC49280.2020.9152317
+  title: >
+    Applying Convolutional LSTM Network to Predict El Niño Events: Transfer Learning from The Data of Dynamical Model and Observation
+  tags: ConvLSTM, El Niño, Transfer Learning
+  authors:
+    - Bin Mu
+    - Shaoyang Ma
+    - Shijin Yuan
+    - Hui Xu
+  publisher: IEEE
+  date: '2020-07-17'
+  link: https://ieeexplore.ieee.org/abstract/document/9152317
+  image: images/research/202007_Applying Convolutional LSTM Network to Predict El Nino Events Transfer Learning from The Data of Dynamical Model and Observation.png
+
+- id: doi:10.1155/2020/2413041
+  title: >
+    Prediction of North Atlantic Oscillation Index Associated with the Sea Level Pressure Using DWT-LSTM and DWT-ConvLSTM Networks
+  tags: DWT-LSTM, ConvLSTM, NAO
+  authors:
+    - Bin Mu
+    - Jing Li
+    - Shijin Yuan
+    - Xiaodan Luo
+  publisher: Wiley
+  date: '2020-10-05'
+  link: https://doi.org/10.1155/2020/2413041
+  image: images/research/202010_Prediction of North Atlantic Oscillation Index Associated with the Sea Level Pressure Using DWT-LSTM and DWT-ConvLSTM Networks.png
+
+- id: doi:10.1155/2020/7897824
+  title: >
+    A Climate Downscaling Deep Learning Model considering the Multiscale Spatial Correlations and Chaos of Meteorological Events
+  tags: Climate Downscaling, Deep Learning, Meteorological Events
+  authors:
+    - Bin Mu
+    - Bo Qin
+    - Shijin Yuan
+    - Xiaoyun Qin
+  publisher: Wiley
+  date: '2020-11-16'
+  link: https://doi.org/10.1155/2020/7897824
+  image: images/research/202011_A climate downscaling deep learning model considering the multiscale spatial correlations and chaos of meteorological events.png
+
+- id: doi:10.3390/a14030083
+  title: >
+    Typhoon Intensity Forecasting Based on LSTM Using the Rolling Forecast Method
+  tags: LSTM, Typhoon Forecasting, Rolling Forecast
+  authors:
+    - Shijin Yuan
+    - Cheng Wang
+    - Bin Mu
+    - Feifan Zhou
+    - Wansuo Duan
+  publisher: MDPI
+  date: '2021-03-04'
+  link: https://doi.org/10.3390/a14030083
+  image: images/research/202103_Typhoon Intensity Forecasting Based on LSTM Using the Rolling Forecast Method.png
+
+- id: doi:10.1145/3449301.3449334
+  title: >
+    Efficient Executions of Community Earth System Model onto Accelerators Using GPUs
+  tags: CESM, GPU, CUDA
+  authors:
+    - Shijin Yuan
+    - Cheng Wang
+    - Bin Mu
+    - Xiaodan Luo
+  publisher: ACM
+  date: '2021-06-09'
+  link: https://doi.org/10.1145/3449301.3449334
+  image: images/research/202011_Efficient Executions of Community Earth System Model onto Accelerators Using GPUs.png
+
+- id: doi:10.5194/gmd-14-6977-2021
+  title: >
+    ENSO-ASC 1.0.0: ENSO deep learning forecast model with a multivariate air–sea coupler
+  tags: ENSO, Deep Learning, Air-Sea Coupler
+  authors:
+    - Bin Mu
+    - Bo Qin
+    - Shijin Yuan
+  publisher: European Geosciences Union
+  date: '2021-11-17'
+  link: https://doi.org/10.5194/gmd-14-6977-2021
+  image: images/research/202111_ENSO deep learning forecast model A survey.png
+
+- id: doi:10.1155/2022/6141966
+  title: >
+    The NAO Variability Prediction and Forecasting with Multiple Time Scales Driven by ENSO Using Machine Learning Approaches
+  tags: NAO, ENSO, Machine Learning
+  authors:
+    - Bin Mu
+    - Jing Li
+    - Shijin Yuan
+    - Xiaodan Luo
+  publisher: Wiley
+  date: '2022-04-15'
+  link: https://doi.org/10.1155/2022/6141966
+  image: images/research/202204_The NAO Variability Prediction and Forecasting with Multiple Time Scales Driven by ENSO Using Machine Learning Approaches.png
+
+- id: doi:10.1029/2022MS003132
+  title: >
+    ENSO-GTC: ENSO Deep Learning Forecast Model With a Global Spatial-Temporal Teleconnection Coupler
+  tags: ENSO, Deep Learning, Teleconnection
+  authors:
+    - Bin Mu
+    - Bo Qin
+    - Shijin Yuan
+  publisher: American Geophysical Union
+  date: '2022-12-15'
+  link: https://doi.org/10.1029/2022MS003132
+  image: images/research/202212_ENSO-GTC ENSO Deep Learning Forecast Model with a Global Spatial-Temporal Teleconnection Coupler.png
+
+- id: doi:10.1109/LGRS.2023.3250642
+  title: >
+    PIRT: A Physics-Informed Red Tide Deep Learning Forecast Model Considering Causal-Inferred Predictors Selection
+  tags: Red Tide, Deep Learning, Causal Inference
+  authors:
+    - Bin Mu
+    - Bo Qin
+    - Shijin Yuan
+    - Xin Wang
+    - Yuxuan Chen
+  publisher: IEEE
+  date: '2023-03-01'
+  link: https://doi.org/10.1109/LGRS.2023.3250642
+  image: images/research/202303_PIRT A Physics-informed Red Tide Deep Learning Forecast Model Considering Causal-inferred Predictors Selection.png
+
+- id: doi:10.3390/jmse11050910
+  title: >
+    Error Evolutions and Analyses on Joint Effects of SST and SL via Intermediate Coupled Models and Conditional Nonlinear Optimal Perturbation Method
+  tags: SST, CNOP
+  authors:
+    - Bin Mu
+    - Xiaoyun Qin
+    - Shijin Yuan
+    - Bo Qin
+  publisher: MDPI
+  date: '2023-04-24'
+  link: https://doi.org/10.3390/jmse11050910
+  image: images/research/202304_Error Evolutions and Analyses on Joint Effects of SST and SL via Intermediate Coupled Models and Conditional Nonlinear Optimal Perturbation Method.png
+
+- id: doi:10.1016/j.cageo.2023.105375
+  title: >
+    Dimension shifting based intelligent algorithm framework to solve conditional nonlinear optimal perturbation
+  tags: Dimension Shifting, CNOP, Intelligent Algorithm
+  authors:
+    - Shijin Yuan
+    - Yaxuan Liu
+    - Huazhen Zhang
+    - Bin Mu
+  publisher: Elsevier
+  date: '2023-07-01'
+  link: https://doi.org/10.1016/j.cageo.2023.105375
+  image: images/research/202307_Dimension shifting based intelligent algorithm framework to solve conditional nonlinear optimal perturbation.png
+
+- id: doi:10.5194/gmd-16-4677-2023
+  title: >
+    IceTFT v1.0.0: interpretable long-term prediction of Arctic sea ice extent with deep learning
+  tags: Arctic Sea Ice, Deep Learning, IceTFT
+  authors:
+    - Bin Mu
+    - Xiaodan Luo
+    - Shijin Yuan
+    - Xi Liang
+  publisher: European Geosciences Union
+  date: '2023-08-18'
+  link: https://doi.org/10.5194/gmd-16-4677-2023
+  image: images/research/202308_IceTFT v1.0.0 Interpretable Long-Term Prediction of Arctic Sea Ice Extent with Deep Learning.png
+
+- id: doi:10.1016/j.aosl.2023.100407
+  title: >
+    A generative adversarial network–based unified model integrating bias correction and downscaling for global SST
+  tags: SST, GAN, Bias Correction, Downscaling
+  authors:
+    - Shijin Yuan
+    - Xin Feng
+    - Bin Mu
+    - Bo Qin
+    - Xin Wang
+    - Yuxuan Chen
+  publisher: Atmospheric and Oceanic Science Letters
+  date: '2024-01-31'
+  link: https://doi.org/10.1016/j.aosl.2023.100407
+  image: images/research/202401_A GAN-based Unified Model Integrating Bias Correction and Downscaling for Global SST.png
+
+- id: doi:10.1016/j.atmosres.2024.107306
+  title: >
+    Developing intelligent Earth System Models: An AI framework for replacing sub-modules based on incremental learning and its application
+  tags: AI, Incremental Learning
+  authors:
+    - Bin Mu
+    - Zi-Jun Zhao
+    - Shi-Jin Yuan
+    - Bo Qin
+    - Guo-Kun Dai
+    - Guan-Bo Zhou
+  publisher: Atmospheric Research
+  date: '2024-06-01'
+  link: https://doi.org/10.1016/j.atmosres.2024.107306
+  image: images/research/202402_Developing intelligent Earth System Models An AI framework for replacing sub-modules based on incremental learning and its application.png
+
+- id: doi:10.1016/j.ocemod.2024.102326
+  title: >
+    A deep learning-based bias correction model for Arctic sea ice concentration towards MITgcm
+  tags: Arctic Sea Ice, Deep Learning
+  authors:
+    - Shijin Yuan
+    - Shichen Zhu
+    - Xiaodan Luo
+    - Bin Mu
+  publisher: Ocean Modelling
+  date: '2024-04-01'
+  link: https://doi.org/10.1016/j.ocemod.2024.102326
+  image: images/research/202404_A deep learning-based bias correction model for Arctic sea ice concentration towards MITgcm.png
+
+- id: doi:10.1016/j.ocemod.2024.102344
+  title: >
+    Multivariate Upstream Kuroshio Transport (UKT) Prediction and Targeted Observation Sensitive Area Identification of UKT Seasonal Reduction
+  tags: UKT, Kuroshio Transport
+  authors:
+    - Bin Mu
+    - Yifan Yang-Hu
+    - Bo Qin
+    - Shijin Yuan
+  publisher: Ocean Modelling
+  date: '2024-06-01'
+  link: https://doi.org/10.1016/j.ocemod.2024.102344
+  image: images/research/202406_Multivariate Upstream Kuroshio Transport (UKT) prediction and targeted observation sensitive area identification of UKT seasonal reduction.png
+
+- id: doi:10.1007/s11430-023-1383-6
+  title: >
+    A deep learning-based global tropical cyclogenesis prediction model and its interpretability analysis
+  tags: Deep Learning, Model Interpretability, Prediction
+  authors:
+    - Bin Mu
+    - Xin Wang
+    - Shijin Yuan
+    - Yuxuan Chen
+    - Guansong Wang
+    - Bo Qin
+    - Guanbo Zhou
+  publisher: Springer
+  date: '2024-08-02'
+  link: https://doi.org/10.1007/s11430-023-1383-6
+  image: images/research/202407_A deep learning-based global tropical cyclogenesis prediction model and its interpretability analysis.png
