@@ -435,7 +435,7 @@
     Areas Using the Gradient Definition Based Method.png
   plugin: sources.py
   file: sources.yaml
-- id: doi:10.1007/s00343-019-8107-8
+- id: doi:10.1007/s00343-019-7235-9
   title: 'Optimal precursors of double-gyre regime transitions with an adjoint-free
     method
 
@@ -492,7 +492,7 @@
     Algorithm for Identifying Optimal Precursors of North Atlantic Oscillation.png
   plugin: sources.py
   file: sources.yaml
-- id: doi:10.1109/ICElEIC49280.2020.9152317
+- id: doi:10.1109/ICEIEC49280.2020.9152317
   title: "Applying Convolutional LSTM Network to Predict El Ni\xF1o Events: Transfer\
     \ Learning from The Data of Dynamical Model and Observation\n"
   tags: "ConvLSTM, El Ni\xF1o, Transfer Learning"
