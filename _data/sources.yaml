@@ -408,7 +408,7 @@
   link: https://doi.org/10.1109/HPCC/SmartCity/DSS.2019.00165
   image: images/research/201908_Parallel PCA-Based Bacterial Foraging Optimization Algorithm for Identifying Optimal Precursors of North Atlantic Oscillation.png
 
-- id: doi:10.1109/ICElEIC49280.2020.9152317
+- id: doi:10.1109/ICEIEC49280.2020.9152317
   title: >
     Applying Convolutional LSTM Network to Predict El Niño Events: Transfer Learning from The Data of Dynamical Model and Observation
   tags: ConvLSTM, El Niño, Transfer Learning
