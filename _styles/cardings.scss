@@ -1,7 +1,7 @@
 ---
 ---
 
-.card {
+.card-containers .card {
   display: inline-flex;
   justify-content: stretch;
   align-items: center;
@@ -10,24 +10,22 @@
   max-width: calc(100% - 20px - 20px);
   margin: 15px;
   background: var(--background);
-  //border-radius: var(--rounded);
   overflow: hidden;
-  //box-shadow: var(--shadow);
   vertical-align: top;
 }
 
-.card[data-style="small"] {
+.card-containers .card[data-style="small"] {
   width: 150px;
 }
 
-.card-image img {
+.card-containers .card-image img {
   aspect-ratio: 3 / 2;
   object-fit: cover;
   width: 100%;
-  // box-shadow: var(--shadow);
+  /* box-shadow: var(--shadow); */
 }
 
-.card-text {
+.card-containers .card-text {
   display: inline-flex;
   justify-content: flex-start;
   align-items: center;
@@ -37,21 +35,21 @@
   padding: 15px;
 }
 
-.card-text > * {
+.card-containers .card-text > * {
   margin: 0 !important;
 }
 
-.card-title {
+.card-containers .card-title {
   font-family: var(--heading);
   font-weight: var(--semi-bold);
 }
 
-.card-subtitle {
+.card-containers .card-subtitle {
   margin-top: -8px !important;
   font-style: italic;
 }
 
-.card-date {
+.card-containers .card-date {
   font-family: var(--body);
   font-size: 0.875rem; 
   color: var(--text-muted); 

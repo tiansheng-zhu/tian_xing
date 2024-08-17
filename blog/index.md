@@ -18,15 +18,15 @@ nav:
 {% include search-info.html %}
 
 ## {% include icon.html icon="fa-solid fa-microscope" %} Conferences
-
-{% include listing.html component="cardings" data="tools" filters="group: conference"%}
-
+<div class="card-containers">
+  {% include listing.html component="cardings" data="tools" filters="group: conference"%}
+</div>
 {% include sections.html %}
 
 ## {% include icon.html icon="fa-solid fa-microscope" %} Reports
-
-{% include listing.html component="cardings" data="tools" filters="group: report"%}
-
+<div class="card-containers">
+  {% include listing.html component="cardings" data="tools" filters="group: report"%}
+</div>
 {% include sections.html %}
 
 ## {% include icon.html icon="fa-solid fa-microscope" %} Contact 
