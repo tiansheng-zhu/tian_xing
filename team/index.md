@@ -50,6 +50,8 @@ redirect_from:
 
 {% capture content %}
 
+
+
 [![国家气象中心](http://image.nmc.cn/assets/img/index/nmc_logo_3.png)](http://www.nmc.cn/)
 
 
