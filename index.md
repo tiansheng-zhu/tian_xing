@@ -28,7 +28,7 @@
 # 相 关 研 究
 
 {%
-  include grid.html
+  include gallery.html
   style="square"
 
   image1="images/research_topics/topic-high-temperature.png"
