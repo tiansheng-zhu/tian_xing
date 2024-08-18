@@ -50,12 +50,14 @@ redirect_from:
 
 {% capture content %}
 [![国家海洋环境预报中心](https://nmefc-obs.obs.cn-north-4.myhuaweicloud.com/CMS/nmefcLogo/logoblue.png)](https://www.nmefc.cn/)
+[![国家气象中心](http://image.nmc.cn/assets/img/index/nmc_logo_3.png)](http://www.nmc.cn/)
+[![国家气象中心](http://image.nmc.cn/assets/img/index/nmc_logo_3.png)](http://www.nmc.cn/)
 
 [![复旦大学大气科学研究院](https://atmsci.fudan.edu.cn/_upload/tpl/07/9f/1951/template1951/images/logo.png)](https://atmsci.fudan.edu.cn/)
 
 [![清华大学地球系统科学系](https://www.dess.tsinghua.edu.cn/images/logo.png)](https://www.dess.tsinghua.edu.cn/)
 
-[![国家气象中心](http://image.nmc.cn/assets/img/index/nmc_logo_3.png)](http://www.nmc.cn/)
+
 
 {% endcapture %}
 
