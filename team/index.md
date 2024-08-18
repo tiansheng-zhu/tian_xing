@@ -50,7 +50,7 @@ redirect_from:
 
 {% capture content %}
 
-[![国家气象中心](http://image.nmc.cn/assets/img/index/nmc_logo_2.png)](http://www.nmc.cn/)
+[![国家气象中心](https://img2.baidu.com/it/u=2641248749,3692249841&fm=253&fmt=auto&app=138&f=GIF?w=285&h=129)](http://www.nmc.cn/)
 
 [![国家海洋环境预报中心](https://nmefc-obs.obs.cn-north-4.myhuaweicloud.com/CMS/nmefcLogo/logoblue.png)](https://www.nmefc.cn/)
 
